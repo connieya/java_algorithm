@@ -1,4 +1,4 @@
-package com.company.inflearn.readme;
+package com.company.inflearn.readme.sec01;
 
 public class Memo {
 
