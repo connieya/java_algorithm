@@ -9,18 +9,24 @@ public class String11 {
         String answer = "";
 
         int count = 1;
-        for (int i = 0; i < str.length(); i++) {
-            if (str.charAt(i) == str.charAt(i+1)) {
-                count++;
-            }else {
-                if (count == 1) {
-                    answer += str.charAt(i) + "";
+        str += " ";
+        for (int i = 0; i < str.length()-1; i++) {
+
+                if (str.charAt(i) == str.charAt((i+1))) {
+                    count++;
                 } else {
-                    answer += str.charAt(i) + count;
-                    count = 1;
+                    if (count == 1) {
+                        answer += str.charAt(i);
+                    } else {
+                        answer += str.charAt(i);
+                        answer += count;
+                    }
+                        count = 1;
+
                 }
+
             }
-        }
+
 
         return answer;
     }
