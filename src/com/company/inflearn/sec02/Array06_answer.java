@@ -3,37 +3,34 @@ package com.company.inflearn.sec02;
 import java.util.ArrayList;
 import java.util.Scanner;
 
-public class Array06 {
+public class Array06_answer {
+    public ArrayList<Integer> solution(int n , int [] arr){
 
-    public ArrayList<Integer> solution(int n , String [] arr){
-
-       ArrayList<Integer> answer = new ArrayList<>();
+        ArrayList<Integer> answer = new ArrayList<>();
         for (int j=0; j<n; j++){
-            String st = new StringBuilder(arr[j]).reverse().toString();
-            int number = Integer.parseInt(st);
-            if (isPrime(number)){
-                answer.add(number);
+            int tmp = arr[j];
+            int res = 0;
+            while (tmp > 0){
+                int t = tmp%10;
+                res = res*10 + t;
+                tmp = tmp/10;
             }
+            if (isPrime(res)) answer.add(res);
 
         }
-
         return answer;
 
     }
-
     public static void main(String[] args) {
 
-       Array06 A = new Array06();
-
+        Array06_answer A = new Array06_answer();
         Scanner sc = new Scanner(System.in);
         int num = sc.nextInt();
 
-        String [] array = new String[num];
-
+        int [] array = new int[num];
         for (int i=0; i<array.length; i++){
-            array[i] = sc.next();
+            array[i] = sc.nextInt();
         }
-
         for (int x : A.solution(num, array)){
             System.out.print(x+" ");
         }

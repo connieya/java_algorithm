@@ -34,6 +34,8 @@ public class Array05_1 {
             }
         }
 
+
+
         StringBuffer sb = new StringBuffer();
         sb.append("{");
         for (int i=0; i<=n; i++){
@@ -44,5 +46,14 @@ public class Array05_1 {
         }
         sb.setCharAt(sb.length()-1,'}');
         System.out.println(sb.toString());
+
+        int count = 0;
+        for (int i=0; i<primeList.size(); i++){
+            if (primeList.get(i)){
+                count++;
+            }
+
+        }
+            System.out.println(count);
     }
 }
