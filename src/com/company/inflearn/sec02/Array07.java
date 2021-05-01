@@ -1,14 +1,44 @@
 package com.company.inflearn.sec02;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Array07 {
+
+    public int solution(int[] arr) {
+
+        int count = 0;
+        int sum = 0;
+        for (int i = 0 ; i<arr.length; i++){
+            if (arr[i] == 0){
+                count = 0;
+            }else{
+
+                count++;
+                sum+= count;
+
+            }
+        }
+
+        return sum;
+
+    }
+
     public static void main(String[] args) {
 
-//        System.out.println(2 % 0); // 컴파일 에러
+        Array07 A = new Array07();
 
-        System.out.println(151 / 170);
-        System.out.println(151 % 170);
+        Scanner sc = new Scanner(System.in);
 
-        System.out.println(0 /10);
-        System.out.println(0 % 123);
+        int num = sc.nextInt();
+
+        int array[] = new int[num];
+
+        for (int i = 0; i < num; i++) {
+            array[i] = sc.nextInt();
+        }
+
+        System.out.println(A.solution(array));
     }
+
 }
