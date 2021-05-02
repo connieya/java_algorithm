@@ -1,42 +1,61 @@
 package com.company.inflearn.sec02;
 
+import java.util.ArrayList;
+import java.util.Scanner;
+
 public class Array09 {
+
+    public int solution(int num , int[][]arr){
+
+
+        ArrayList<Integer> answer = new ArrayList<>();
+
+        int diagonal = 0;
+        int diagonal2 = 0;
+        for (int i=0; i<num; i++){
+            int row = 0, column = 0 ;
+
+            diagonal+= arr[i][i];
+            diagonal2+= arr[num-1-i][i];
+
+            for (int j=0; j<num; j++){
+                row += arr[i][j];
+                column += arr[j][i];
+            }
+            answer.add(row);
+            answer.add(column);
+        }
+        answer.add(diagonal);
+        answer.add(diagonal2);
+
+        int max = answer.get(0);
+        for (int z=0; z<answer.size(); z++){
+            if (max < answer.get(z)) max = answer.get(z);
+        }
+
+
+        return max;
+    }
     public static void main(String[] args) {
 
-        // primitive 타입이라서 값에 의한 호출
-        // => 호출된 값이 변경되어도 호출한 값은 변경되지 않는다.
-        int k = 100;
+        Scanner sc = new Scanner(System.in);
 
-        example(k);
+        int n = sc.nextInt();
 
-        System.out.println("k  = " + k);
+        int array[][] = new int[n][n];
 
-// ------------------------------------------------------------
+        for (int i=0; i<n; i++){
+            for (int j=0; j<n; j++){
+                array[i][j] = sc.nextInt();
+            }
+        }
 
-        // 배열은 primitive 타입이 아니다.
-        // => 호출된 값이 변경되면 호출한 값도 변경된다.
+        Array09 A = new Array09();
+        System.out.println(A.solution(n,array));
 
-        int data [] = {4,2,3};
 
-        example1(data);
 
-        for(int d : data)
-            System.out.println("data : " + d);
+
     }
 
-
-
-    private static int example(int b) {
-
-        b =50;
-        return  b;
-    }
-
-    // ---------------------------------------------------------
-    private static void example1(int [] array) {
-
-        array[0] = 3;
-        array[1]= 2;
-        array[2]=19;
-    }
 }
