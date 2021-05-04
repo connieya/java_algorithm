@@ -5,23 +5,17 @@ import java.util.Scanner;
 public class Tow6 {
 
     public int solution(int n , int[] arr){
-        int count = 1;
-        int answer = 1;
-        int lt = 1;
-        for (int rt=0; rt<n; rt++){
-            if (arr[rt] ==0){
-                lt++;
-            }else if (arr[rt] == arr[lt]){
-                count++; lt++;
+       int count = 0, answer =0 , lt =0;
 
-                answer = Math.max(count,answer);
-            }else {
-                answer = Math.max(count, answer);
+       for (int rt=0; rt<n; rt++){
+           if(arr[rt] ==1){
+               count++;
+           }else {
+               answer = Math.max(answer,count);
 
-                count = 1;
-                lt++;
-            }
-        }
+               count = 0;
+           }
+       }
 
 
         return answer;
