@@ -1,5 +1,7 @@
 package com.company.inflearn.sec06;
 
+import java.util.ArrayList;
+import java.util.Collections;
 import java.util.Scanner;
 
 class Point implements Comparable<Point>{
@@ -14,8 +16,11 @@ class Point implements Comparable<Point>{
     @Override
     public int compareTo(Point o) {
         if (this.x == o.x) return this.y- o.y;
+        else{
+           return  this.x - o.x;
+        }
 
-        return 0;
+
     }
 }
 
@@ -25,8 +30,16 @@ public class Main7_a {
 
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
-        int arr[][] = new int[n][2];
-
+        ArrayList<Point> arr = new ArrayList<>();
+        for (int i=0; i<n; i++){
+            int x = sc.nextInt();
+            int y = sc.nextInt();
+            arr.add(new Point(x,y));
+        }
+        Collections.sort(arr);
+        for (Point o : arr){
+            System.out.println(o.x+" "+o.y);
+        }
 
 
 
