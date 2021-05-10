@@ -21,8 +21,7 @@ class String04_answer_2 {
                 lt++;
                 rt--;
             }
-            // String의 객체가 아니라 정적 메서드 이기 때문에
-            // String 클래스에서 바로 접근 가능하다.
+
             String tmp = String.valueOf(s);
             answer.add(tmp);
 
