@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.while_;
 
 import java.util.ArrayList;
 import java.util.Scanner;

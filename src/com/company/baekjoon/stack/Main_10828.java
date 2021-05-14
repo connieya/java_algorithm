@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.stack;
 
 import java.io.BufferedWriter;
 import java.io.IOException;

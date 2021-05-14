@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.stack;
 
 public class Main_10828_1 {
 

@@ -1,28 +1,26 @@
-package com.company.baekjoon;
+package com.company.baekjoon.stack;
 
-import java.util.ArrayList;
 import java.util.Scanner;
-import java.util.Stack;
 
-public class Main_9012_1 {
+public class Main_9012_2 {
 
     public static String isValid(String s) {
 
 
-        Stack<Character> stack = new Stack<>();
+        int count = 0;
         String answer = "YES";
         for (char c : s.toCharArray()) {
-            if (c == '(') stack.push(c);
+            if (c == '(')  count++;
             else {
-                if (stack.isEmpty()) {
+                if (count==0) {
                     answer = "NO";
                     break;
                 }
-                stack.pop();
+                count--;
             }
         }
-        if (!stack.isEmpty()) answer = "NO";
-        stack.clear();
+        if (count >0) answer = "NO";
+
         return answer;
     }
 

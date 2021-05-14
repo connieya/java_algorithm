@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.stack;
 import java.util.*;
 public class Main_9012_a {
     public static String isValid(String s) {

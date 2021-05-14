@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.stack;
 
 import java.util.Scanner;
 import java.util.Stack;

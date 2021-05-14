@@ -1,4 +1,4 @@
-package com.company.baekjoon;
+package com.company.baekjoon.array;
 
 import java.io.BufferedReader;
 import java.io.IOException;
