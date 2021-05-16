@@ -8,9 +8,9 @@ public class Main {
 
 
         Scanner sc = new Scanner(System.in);
-        int a = sc.nextInt();
-        int b = sc.nextInt();
-        System.out.println(a+b);
+        double a = sc.nextInt();
+        double b = sc.nextInt();
+        System.out.println(a/b);
 
     }
 }
