@@ -1,17 +1,17 @@
-package com.company.baekjoon;
+package com.company.code_plus.lecture01.dynamic;
 
 import java.util.Scanner;
-public class Main {
+
+public class Main_11726_a {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n+1];
+        arr[0] = 1;
         arr[1] = 1;
-        arr[2] = 1;
-        for (int i=3; i<=n; i++){
-            for (int j=1; j<=2; j++){
-                arr[i] += arr[i-j];
-            }
+        for (int i=2 ; i<=n; i++ ){
+            arr[i] = arr[i-1] + arr[i-2];
+            arr[i] %= 10007;
         }
         System.out.println(arr[n]);
 
