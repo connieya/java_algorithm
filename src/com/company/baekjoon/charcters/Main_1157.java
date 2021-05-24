@@ -1,8 +1,6 @@
 package com.company.baekjoon.charcters;
 
 import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
 import java.util.Scanner;
 
 public class Main_1157 {
@@ -11,19 +9,25 @@ public class Main_1157 {
         String str = sc.next();
         String s = str.toUpperCase();
 
-        HashMap<Character,Integer> map = new HashMap<>();
-        for (char ch : s.toCharArray()){
-            map.put(ch , map.getOrDefault(ch,0)+1);
+        int [] arr = new int[26];
+
+        for (int i=0; i<s.length(); i++){
+            arr[(s.charAt(i)-'A')]++;
         }
-        Iterator<Map.Entry<Character, Integer>> iterator = map.entrySet().iterator();
-        int max = Integer.MIN_VALUE;
-        while (iterator.hasNext()){
-            Integer value = iterator.next().getValue();
-            if (value >=max){
-                max = value;
+        int min  = Integer.MIN_VALUE;
+        char ch = '?';
+
+        for (int i=0; i<arr.length; i++){
+            if (arr[i] > min){
+                min = arr[i];
+                ch = (char) (i+65);
+            }else if (arr[i] ==min){
+                ch = '?';
             }
         }
-        System.out.println(max);
+        System.out.println(ch);
+
+
 
     }
 }

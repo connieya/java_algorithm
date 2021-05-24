@@ -7,20 +7,27 @@ public class Main_1912 {
         Scanner sc = new Scanner(System.in);
         int n = sc.nextInt();
         int arr[] = new int[n];
-
+        int d[] = new int[n];
         for (int i=0; i<n; i++){
             arr[i] = sc.nextInt();
         }
+        d[0] = arr[0];
+        for (int i=0; i<n-1; i++){
 
-        int d[] = new int[n];
-
-        for (int j=0; j<n; j++){
-            if (j==0) continue;
-            d[j] = arr[j];
-            arr[j+1] = arr[j+1] +d[j];
-            if(arr[j+1] > d[j+1]){
-
+            if (arr[i+1] > arr[i]+arr[i+1]){
+                d[i+1] = arr[i+1];
+            }else{
+                d[i+1] = arr[i]+arr[i+1];
+                arr[i+1] = d[i+1];
             }
         }
+        int ans = Integer.MIN_VALUE;
+        for (int j=0; j<n; j++){
+            if (ans < d[j]){
+                ans = d[j];
+            }
+        }
+        System.out.println(ans);
+
     }
 }
