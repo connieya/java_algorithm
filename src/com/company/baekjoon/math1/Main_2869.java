@@ -9,17 +9,10 @@ public class Main_2869 {
         int b = sc.nextInt();
         int v = sc.nextInt();
 
-        // 현재 위치
-        int i = 0;
-        int day = 1;
-
-        while (v > i+a){
-            i = i+a-b;
-
+        int day = (v-b) / (a-b);
+        if ((v-b) % (a-b) != 0){
             day++;
         }
         System.out.println(day);
-
-
     }
 }
