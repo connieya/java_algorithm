@@ -22,7 +22,7 @@ public class 이진트리레벨탐색_BFS {
         int L =0;
         while (!Q.isEmpty()){
             int len = Q.size();
-            System.out.print(L+" :");
+            System.out.print("레벨 "+L+" =");
             for (int i=0; i<len; i++){
                 Node_1 current = Q.poll();
                 System.out.print(current.data+" ");

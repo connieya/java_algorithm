@@ -9,10 +9,16 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        System.out.println("***");
-        System.out.println("* *");
-        System.out.println("***");
+        ArrayDeque<Integer> deque = new ArrayDeque<>();
 
+        for (int i=1; i<=10; i++){
+            deque.offer(i);
+        }
+
+        deque.pop();
+        for (int i : deque){
+            System.out.print(i+" ");
+        }
     }
 
 }
