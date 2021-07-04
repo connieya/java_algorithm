@@ -3,22 +3,21 @@ package com.company.inflearn;
 import java.util.Scanner;
 
 public class Main {
-    static int memory[];
-    static int Fibo(int n){
-        if (n<=1) return n;
-
-
-        if (memory[n]>0){
-            return memory[n];
+    public static void main(String[] args) {
+        String s = "aabcbcd";
+        String t ="abc";
+        int count = 0;
+        while (s.indexOf(t)!=-1){
+            int start = s.indexOf(t);
+            int end = start+t.length();
+            System.out.println(start+" "+end);
+            StringBuilder sb = new StringBuilder();
+            s = sb.append(s.substring(0,start)).append(s.substring(end)).toString();
+            System.out.println(s);
+            count++;
         }
-        memory[n] = Fibo(n-1)+Fibo(n-2);
-        return memory[n];
 
-    }
-    public static void main(String[] args)  {
-        Scanner sc = new Scanner(System.in);
-        int n = sc.nextInt();
-        memory = new int[n+1];
-        System.out.println(Fibo(n));
+        System.out.println(count);
+
     }
 }
