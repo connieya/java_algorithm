@@ -1,23 +1,27 @@
 package com.company.inflearn;
-
-import java.util.Scanner;
-
 public class Main {
+    static int n;
+    static boolean[] check;
     public static void main(String[] args) {
-        String s = "aabcbcd";
-        String t ="abc";
-        int count = 0;
-        while (s.indexOf(t)!=-1){
-            int start = s.indexOf(t);
-            int end = start+t.length();
-            System.out.println(start+" "+end);
-            StringBuilder sb = new StringBuilder();
-            s = sb.append(s.substring(0,start)).append(s.substring(end)).toString();
-            System.out.println(s);
-            count++;
+        n =3;
+        check = new boolean[n+1];
+        DFS(1);
+
+    }
+    static void DFS(int L){
+        if (L == n+1){
+            for (int i=1; i<=n; i++){
+                if (check[i]){
+                    System.out.print(i+" ");
+                }
+            }
+            System.out.println();
+
+        }else {
+            check[L] = true;
+            DFS(L+1);
+            check[L] = false;
+            DFS(L+1);
         }
-
-        System.out.println(count);
-
     }
 }

@@ -12,7 +12,6 @@ class Node_1 {
         lt = rt = null;
     }
 }
-
 public class 이진트리레벨탐색_BFS {
     Node_1 root;
 
