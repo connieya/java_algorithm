@@ -9,16 +9,9 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        ArrayDeque<Integer> deque = new ArrayDeque<>();
+        String str = "asdsikak1s31dskasdsa21";
 
-        for (int i=1; i<=10; i++){
-            deque.offer(i);
-        }
-
-        deque.pop();
-        for (int i : deque){
-            System.out.print(i+" ");
-        }
+        String s = str.replaceAll("s", "0");
+        System.out.println(s);
     }
-
 }
