@@ -19,3 +19,4 @@ public class 같은숫자는싫어 {
         System.out.println(Solution(arr));
     }
 }
+

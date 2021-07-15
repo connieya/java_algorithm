@@ -9,9 +9,6 @@ import java.util.*;
 
 public class Main {
     public static void main(String[] args) {
-        String str = "asdsikak1s31dskasdsa21";
 
-        String s = str.replaceAll("s", "0");
-        System.out.println(s);
     }
 }
