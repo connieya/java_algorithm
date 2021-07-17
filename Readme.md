@@ -5,7 +5,7 @@
 - ## [백준](https://www.acmicpc.net/user/gunny6026)
   백준 알고리즘 사이트
 
-- ## [자바(Java) 알고리즘 문제풀이 - 인프런](src/com/company/inflearn/인프런.md)
+- ## [자바(Java) 알고리즘 문제풀이 - 인프런](src/com/company/inflearn)
     인프런에있는 코딩테스트 채점 사이트에서 풀이한 알고리즘입니다.
   
 - ## [프로그래머스](src/com/company/programmers)
