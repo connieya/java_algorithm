@@ -11,15 +11,14 @@ public class 삽입정렬 {
             arr[i] =sc.nextInt();
         }
         for (int i=1; i<n; i++){
-            int index = i;
-            for (int j=i-1; j>=0; j--){
-                if (arr[index]< arr[j]){
-                    int temp = arr[j];
-                    arr[j] = arr[index];
-                    arr[index] = temp;
-                    index =j;
-                }
-            }
+           int temp = arr[i],j;
+           for (j=i-1; j>=0; j--){
+               if (arr[j]>temp) arr[j+1] = arr[j];
+               else{
+                   break;
+               }
+           }
+           arr[j+1] =temp;
         }
         for (int x : arr){
             System.out.print(x+" ");
