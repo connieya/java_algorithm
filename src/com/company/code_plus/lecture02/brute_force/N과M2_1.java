@@ -2,23 +2,28 @@ package com.company.code_plus.lecture02.brute_force;
 
 import java.util.Scanner;
 
-public class N과M2 {
+public class N과M2_1 {
     static int n, m;
     static int[] answer;
+    static boolean[] check;
+    static StringBuilder sb = new StringBuilder();
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         n = sc.nextInt();
         m = sc.nextInt();
         answer = new int[m];
+        check = new boolean[n + 1];
         DFS(0, 1);
+        System.out.println(sb);
     }
 
     static void DFS(int L, int start) {
         if (L == m) {
             for (int c : answer) {
-                System.out.print(c + " ");
+                sb.append(c).append(" ");
             }
-            System.out.println();
+            sb.append("\n");
             return;
         }
 
