@@ -15,7 +15,7 @@ class Node_1 {
 public class 이진트리레벨탐색_BFS {
     Node_1 root;
 
-    public  void BFS(Node_1 root) {
+    public void BFS(Node_1 root) {
         Queue<Node_1> Q = new LinkedList<>();
         Q.offer(root);
         int L =0;
