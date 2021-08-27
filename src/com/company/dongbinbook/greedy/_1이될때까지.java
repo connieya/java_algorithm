@@ -13,8 +13,8 @@ public class _1이될때까지 {
                 n /= k;
                 count++;
             } else {
-                n -= 1;
-                count++;
+               count += n%k;
+               n = (n/k)*k;
             }
         }
         System.out.println(count);
