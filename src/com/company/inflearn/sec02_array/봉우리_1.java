@@ -3,34 +3,49 @@ package com.company.inflearn.sec02_array;
 import java.util.Scanner;
 
 public class 봉우리_1 {
-    static int dx[] = {-1,0,1,0};
-    static int dy[] = {0,1,0,-1};
+    static int dx[] = {-1, 0, 1, 0};
+    static int dy[] = {0, 1, 0, -1};
+    static int mountain[][];
+    static int n;
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
-        int N = sc.nextInt();
-        int board[][] = new int[N][N];
-        for (int i=0; i<N; i++){
-            for (int j=0; j<N; j++){
-                board[i][j] = sc.nextInt();
+        n = sc.nextInt();
+        mountain = new int[n][n];
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                mountain[i][j] = sc.nextInt();
             }
         }
-        int count =0;
-        for (int i=0; i<N; i++){
-            for (int j=0; j<N; j++){
-                boolean flag = true;
-                for (int k=0; k<4; k++){
-                    int nx = i + dx[k];
-                    int ny = j + dy[k];
-                    if (nx>=0 && nx<N && ny>=0 && ny<N && board[nx][ny]>= board[i][j]){
-                        flag = false;
-                        break;
-                    }
-                }
-                if (flag) count++;
-            }
-        }
-        System.out.println(count);
 
+        System.out.println(calculatePeaks());
+    }
+
+    private static int calculatePeaks() {
+        int count = 0;
+        for (int i = 0; i < n; i++) {
+            for (int j = 0; j < n; j++) {
+                if (isPeaks(i, j)) {
+                    count++;
+                }
+            }
+        }
+        return count;
+    }
+
+    private static boolean isPeaks(int x, int y) {
+        for (int i=0; i<4; i++) {
+            int nx = x + dx[i];
+            int ny = y + dy[i];
+            if (nx < 0 || ny < 0 || nx >= n || ny >=n) {
+                continue;
+            }
+
+            if (mountain[nx][ny] >= mountain[x][y]) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }
