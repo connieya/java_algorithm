@@ -14,4 +14,4 @@
 - ## [코드플러스](src/com/company/code_plus/codeplus.md)
 
 - ## [동빈북](src/com/company/dongbinbook/동빈북.md)
-- ## [참고할 코드](src/com/company/good/read.md)
+- ## [참고](src/com/company/good/read.md)

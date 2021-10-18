@@ -1,27 +1,33 @@
 package com.company.inflearn.sec07_recursive;
 
+import java.util.Scanner;
+
 public class 부분집합구하기_DFS {
     static int n;
-    static int[] ch;
-    public void DFS(int L){
-        if (L==n+1){
-            StringBuilder sb = new StringBuilder();
-            for (int i=1; i<=n; i++){
-                if (ch[i]==1) sb.append(i+" ");
-            }
-            if (sb.length()>0) System.out.println(sb);
+    static boolean check[];
 
-        }else {
-            ch[L] = 1;
-            DFS(L+1);
-            ch[L] = 0;
-            DFS(L+1);
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        n = sc.nextInt();
+        check = new boolean[n + 1];
+        dfs(1);
+    }
+
+    static void dfs(int L) {
+        if (L == n) {
+            for (int i=0; i< check.length; i++) {
+                if (check[i]){
+                    System.out.print(i+" ");
+                }
+            }
+            System.out.println();
+            return;
+        }
+        for (int i = 1; i <= n; i++) {
+            check[L] = true;
+            dfs(L + 1);
+            check[L] = false;
         }
     }
-    public static void main(String[] args) {
-        부분집합구하기_DFS T = new 부분집합구하기_DFS();
-        n = 3;
-        ch= new int [n+1];
-        T.DFS(1);
-    }
+
 }
