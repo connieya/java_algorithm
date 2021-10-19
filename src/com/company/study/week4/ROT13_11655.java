@@ -11,26 +11,20 @@ public class ROT13_11655 {
         char[] chars = str.toCharArray();
         StringBuilder sb = new StringBuilder();
         for (char c : chars) {
-            if (Character.isAlphabetic(c)) {
-                if (Character.isUpperCase(c)) {
-                    int i = c + 13;
-                    if (i > 90) {
-                        sb.append((char) (i - 26));
-                    } else {
-                        sb.append((char) i);
-                    }
-                } else {
-                    int i = c + 13;
-                    if (i > 122) {
-                        sb.append((char) (i - 26));
-                    } else {
-                        sb.append((char) i);
-                    }
+            if (Character.isUpperCase(c)) {
+                c += 13;
+                if (c> 90) {
+                    c -= 26;
                 }
 
-            } else {
-                sb.append(c);
+            } else if (Character.isLowerCase(c)){
+                c += 13;
+                if (c > 122) {
+                    c-= 26;
+                }
             }
+
+            sb.append(c);
         }
         System.out.println(sb);
     }

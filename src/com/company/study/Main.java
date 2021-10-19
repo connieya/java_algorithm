@@ -1,9 +1,14 @@
 package com.company.study;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.StringTokenizer;
+
 public class Main {
-    public static void main(String[] args) {
-        for (int i= 65; i<=90; i++) {
-            System.out.println((char) i);
-        }
+    public static void main(String[] args) throws IOException {
+        String str = "kaiak";
+        String  stringBuilder = new StringBuilder(str).reverse().toString();
+        System.out.println(str.equals(stringBuilder));
     }
 }
