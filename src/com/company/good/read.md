@@ -6,6 +6,12 @@
 
 - [compareTo](./CompareToTest.java)
 
+수학
+
+- [최대 공약수 기본](../study/exam/최대공약수_1.java)
+- [최대 공약수 유클리드 호제법](../study/exam/최대공약수_유클리드.java)
+- [최소 공배수]()
+
 순열
 
 - [다음 순열](./다음순열_10972.java)
@@ -24,3 +30,11 @@ N 과 M
 조합
 
 - [조합 구하기](../study/exam/조합구하기.java)
+
+
+비트마스크 
+
+- [비트마스크 개념 ](../baekjoon/brute_force/비트마스크.md)
+- [비트마스크 기본 개념 코드](../study/exam/Test.java)
+- [비트마스크 쓰기전 배열과 switch로 풀이한 집합 문제](../baekjoon/brute_force/집합_11723.java)
+- [비트마스크 사용한 집합 풀이](../baekjoon/brute_force/집합_11723_비트마스크.java)
