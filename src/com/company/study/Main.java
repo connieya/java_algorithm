@@ -9,12 +9,7 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-        List<Integer> set = new ArrayList<>();
-        set.add(10);
-        set.add(20);
-        set.add(30);
-        System.out.println(set);
-        set.remove(0);
-        System.out.println(set);
+       String str = "baekjoon";
+        System.out.println(str.indexOf('d'));
     }
 }

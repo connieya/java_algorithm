@@ -10,17 +10,20 @@
 
 - [최대 공약수 기본](../study/exam/최대공약수_1.java)
 - [최대 공약수 유클리드 호제법](../study/exam/최대공약수_유클리드.java)
-- [최소 공배수]()
+- [최소 공배수](../baekjoon/math1/최소공배수_1934.java)
 
 순열
 
 - [다음 순열](./다음순열_10972.java)
 - [이전 순열](../baekjoon/brute_force/이전순열_10973.java)
 - [모든 순열](../baekjoon/brute_force/모든순열_10974.java)
+- [중복 순열](../study/exam)
 
 DFS & BFS 정복하자 제발......... ㅜ
+- [경로 탐색(DFS)](../study/graph/인접행렬.md)
 - [DFS 전위,중위 후위](../study/exam/DFS.java)
-- [부분집합 구하기(DFS)](../study/exam)
+- [부분집합 구하기(DFS)](../study/exam/부분집합.java)
+- [송아지 찾기1(BFS)](../study/exam/송아지찾기.java)
 
 N 과 M
 
