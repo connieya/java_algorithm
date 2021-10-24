@@ -20,7 +20,8 @@
 - [중복 순열](../study/exam)
 
 DFS & BFS 정복하자 제발......... ㅜ
-- [경로 탐색(DFS)](../study/graph/인접행렬.md)
+- [경로 탐색 - 인접행렬(DFS)](../study/graph/인접행렬.md)
+- [경로 탐색 - 인접리스트(DFS)](../study/graph/인접리스트.md)
 - [DFS 전위,중위 후위](../study/exam/DFS.java)
 - [부분집합 구하기(DFS)](../study/exam/부분집합.java)
 - [송아지 찾기1(BFS)](../study/exam/송아지찾기.java)
