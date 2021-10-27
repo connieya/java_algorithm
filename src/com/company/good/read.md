@@ -6,6 +6,9 @@
 
 - [compareTo](./CompareToTest.java)
 
+자료구조
+- LinkedList 구현 해보기
+
 수학
 
 - [최대 공약수 기본](../study/exam/최대공약수_1.java)
@@ -42,3 +45,8 @@ N 과 M
 - [비트마스크 기본 개념 코드](../study/exam/Test.java)
 - [비트마스크 쓰기전 배열과 switch로 풀이한 집합 문제](../baekjoon/brute_force/집합_11723.java)
 - [비트마스크 사용한 집합 풀이](../baekjoon/brute_force/집합_11723_비트마스크.java)
+
+
+다익스트라
+
+- [다익스트라 기본 개념](../study/dijkstra)
