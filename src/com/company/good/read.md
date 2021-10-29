@@ -7,7 +7,9 @@
 - [compareTo](./CompareToTest.java)
 
 자료구조
-- LinkedList 구현 해보기
+- [LinkedList 구현 해보기](../study/datastructure/linkedlist/Impl.java)
+- [LinkedListNode 의 구현 in java](../study/datastructure/linkedlist/LinkedListNode.java)
+- [LinkedList 중복값 삭제 in java](../study/datastructure/linkedlist/LinkedListNode.java)
 
 수학
 
@@ -23,14 +25,19 @@
 - [중복 순열](../study/exam)
 
 DFS & BFS 정복하자 제발......... ㅜ
+
+- [이진트리 순회 DFS 전위,중위 후위](../study/exam/DFS.java)
+- [부분집합 구하기(DFS)](../study/exam/부분집합.java)
+- [그래프 최단거리(BFS)](../study/graph/그래프최단거리.md)
+- [송아지 찾기1(BFS)](../study/exam/송아지찾기.java)
+- [Tree 말단노드까지의 가장 짧은 경로(DFS)](../study/graph/Tree말단_DFS..md)
+- [Tree 말단노드까지의 가장 짧은 경로(BFS)](../study/graph/Tree말단_BFS.md)
 - [경로 탐색 - 인접행렬(DFS)](../study/graph/인접행렬.md)
 - [경로 탐색 - 인접리스트(DFS)](../study/graph/인접리스트.md)
-- [DFS 전위,중위 후위](../study/exam/DFS.java)
-- [부분집합 구하기(DFS)](../study/exam/부분집합.java)
-- [송아지 찾기1(BFS)](../study/exam/송아지찾기.java)
+- [미로탐색(DFS)](../study/graph/미로탐색.md)
+- [미로의 최단거리 통로(BFS)](../study/graph/미로의최단거리.md)
 
 N 과 M
-
 - [N과M1](../study/n_m/N과M1.java)
 - [N과M2](../study/n_m/N과M2.java)
 
@@ -49,4 +56,5 @@ N 과 M
 
 다익스트라
 
-- [다익스트라 기본 개념](../study/dijkstra)
+- [최대 수입 스케줄(Priority Queue](../study/dijkstra/)
+- [다익스트라 기본 개념](../study/datastructure/다익스트라.md)
