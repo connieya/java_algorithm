@@ -6,10 +6,15 @@
 
 - [compareTo](./CompareToTest.java)
 
-자료구조
+LinkedList 
 - [LinkedList 구현 해보기](../study/datastructure/linkedlist/Impl.java)
 - [LinkedListNode 의 구현 in java](../study/datastructure/linkedlist/LinkedListNode.java)
 - [LinkedList 중복값 삭제 in java](../study/datastructure/linkedlist/LinkedListNode.java)
+
+HashMap, TreeSet(해쉬 , 정렬지원 Set)
+- [학급 회장(해쉬)](../study/hash/학급회장.md)
+- [아나그램 (해쉬)](../study/hash/아나그램.md)
+- [매출액의 종류(Hash, sliding window)](../study/hash/매출.md)
 
 수학
 
@@ -54,7 +59,9 @@ N 과 M
 - [비트마스크 사용한 집합 풀이](../baekjoon/brute_force/집합_11723_비트마스크.java)
 
 
-다익스트라
+Greedy Algorithm
 
-- [최대 수입 스케줄(Priority Queue](../study/dijkstra/)
 - [다익스트라 기본 개념](../study/datastructure/다익스트라.md)
+- [다익스트라 알고리즘](../study/dijkstra/다익스트라.md)
+- [최대 수입 스케줄(Priority Queue)](../study/dijkstra/최대수입스케줄.java)
+- [친구인가(Union & Find)](../study/exam/친구인가.md)
