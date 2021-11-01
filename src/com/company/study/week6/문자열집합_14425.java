@@ -1,0 +1,30 @@
+package com.company.study.week6;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.HashSet;
+import java.util.Set;
+import java.util.StringTokenizer;
+
+public class 문자열집합_14425 {
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int N = Integer.parseInt(st.nextToken());
+        int M = Integer.parseInt(st.nextToken());
+        int count =0;
+        Set<String> set = new HashSet<>();
+        for (int i=0; i<N; i++) {
+            String str = br.readLine();
+            set.add(str);
+        }
+        for (int i=0; i<M; i++ ) {
+            String str = br.readLine();
+            if (set.contains(str)){
+                count++;
+            }
+        }
+        System.out.println(count);
+    }
+}
