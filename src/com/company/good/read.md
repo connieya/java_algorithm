@@ -42,7 +42,8 @@ DFS & BFS 정복하자 제발......... ㅜ
 - [미로탐색(DFS)](../study/graph/미로탐색.md)
 - [미로의 최단거리 통로(BFS)](../study/graph/미로의최단거리.md)
 - [연결 요소의 개수 구하기(부분 그래프)](../study/graph/연결요소의개수.java)
-- [최대점수 구하기](../study/graph)
+- [최대점수 구하기](../study/graph/최대점수.md)
+- [합이 같은 부분집합](../study/graph/합이같은.md)
 - [부분 수열의 합_1182(스택프레임 그려보기)](../study/bruteforce/부분수열의합_1182.java)
 
 N 과 M
