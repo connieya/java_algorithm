@@ -5,7 +5,7 @@ import java.io.IOException;
 import java.io.InputStreamReader;
 import java.util.StringTokenizer;
 
-public class 차이를최대로_10819 {
+public class 차이를최대로_dummy {
     static int N;
     static int answer = Integer.MIN_VALUE;
 
@@ -26,11 +26,11 @@ public class 차이를최대로_10819 {
 
     public static void dfs(boolean[] visited, int L, int[] newArr, int[] arr) {
         if (L == N) {
-            int sum =0;
-            for (int i=0; i<N-1; i++) {
-                sum += Math.abs(newArr[i+1]-newArr[i]);
+            for (int a : newArr) {
+                System.out.print(a+"  ");
             }
-            answer = Math.max(answer,sum);
+            System.out.println();
+
             return;
         }
         for (int i = 0; i < N; i++) {
