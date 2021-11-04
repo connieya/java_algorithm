@@ -9,7 +9,6 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-       String str = "baekjoon";
-        System.out.println(str.indexOf('d'));
+        System.out.println(Math.pow(10,0));
     }
 }

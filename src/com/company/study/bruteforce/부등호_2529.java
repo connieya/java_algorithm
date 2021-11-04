@@ -1,16 +1,18 @@
 package com.company.study.bruteforce;
 
 import java.io.BufferedReader;
-        import java.io.IOException;
-        import java.io.InputStreamReader;
-        import java.util.StringTokenizer;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.ArrayList;
+import java.util.Collections;
+import java.util.List;
+import java.util.StringTokenizer;
 
 public class 부등호_2529 {
     static int num[];
     static String str[];
     static boolean visited[] = new boolean[10];
-    static long MAX = Integer.MIN_VALUE;
-    static long MIN = Integer.MAX_VALUE;
+    static List<String> ans = new ArrayList<>();
 
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
@@ -21,51 +23,38 @@ public class 부등호_2529 {
         for (int i = 0; i < k; i++) {
             str[i] = st.nextToken();
         }
-        dfs(0, k + 1);
-        if (MAX < 0) {
-            System.out.println("0"+MAX);
-        }else {
-            System.out.println(MAX);
-        }
-        if (MIN <0) {
-            System.out.println("0"+MIN+"");
-        }else {
-            System.out.println(MIN);
-        }
-
+        dfs(0 , "" , k+1);
+        Collections.sort(ans);
+        System.out.println(ans.get(ans.size()-1));
+        System.out.println(ans.get(0));
     }
 
-    public static void dfs(int L, int k) {
-        if (L == k) {
-            boolean flag = false;
-            for (int i = 0; i < num.length - 1; i++) {
-                String v = str[i];
-                if (v.equals("<") && num[i] < num[i+1]){
-                    flag =true;
-                }else if (v.equals(">")  && num[i] > num[i+1]){
-                    flag = true;
-                }else {
-                    return;
-                }
-            }
-            if (flag) {
-                String n = "";
-                for (int a : num) {
-                    n += a + "";
-                }
-                long parse = Long.parseLong(n);
-                MAX = Math.max(MAX, parse);
-                MIN = Math.min(MIN, parse);
-            }
+    public static void dfs(int L, String num ,int k) {
+        if (L==k) {
+            ans.add(num);
             return;
         }
-        for (int i = 0; i <= 9; i++) {
-            if (!visited[i]) {
+
+        for (int i=0; i<=9; i++) {
+            if (!visited[i] &&  (L ==0 || isValid(Character.getNumericValue(num.charAt(L-1)) , i , str[L-1]))){
                 visited[i] = true;
-                num[L] = i;
-                dfs(L + 1, k);
+                dfs(L+1 , num+i , k);
                 visited[i] = false;
             }
         }
+    }
+    public static boolean isValid(int a , int b , String c) {
+        if (c.equals(">")) {
+            if (a < b) {
+                return false;
+            }
+        }
+
+        if (c.equals("<")){
+            if (a> b) {
+                return  false;
+            }
+        }
+        return true;
     }
 }
