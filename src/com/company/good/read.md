@@ -1,10 +1,13 @@
+참고
+
 - [서로 다른 세개의 수](./서로_다른_세개의수.java)
- 
 - [아스키코드](../pattern/아스키코드.md)
-
 - [나머지와 몫](../pattern/나머지.md)
-
 - [compareTo](./CompareToTest.java)
+
+진법
+- [2진법](../study/exam/진법2.md)
+- [3진법](../study/exam/진법3.md)
 
 LinkedList 
 - [LinkedList 구현 해보기](../study/datastructure/linkedlist/Impl.java)
