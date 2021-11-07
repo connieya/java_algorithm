@@ -15,7 +15,7 @@ class Node {
 }
 
 
-public class 거리두기확인하기 {
+public class 거리두기확인하기_bfs {
     static char[][] room;
     static int dx[] = {-1, 0, 1, 0};
     static int dy[] = {0, 1, 0, -1};
@@ -57,18 +57,18 @@ public class 거리두기확인하기 {
 
     public static boolean bfs(int x, int y, boolean visited[][]) {
         visited[x][y] = true;
-        Queue<Node> queue = new LinkedList<>();
-        queue.offer(new Node(x, y));
+        Queue<Point> queue = new LinkedList<>();
+        queue.offer(new Point(x, y));
         while (!queue.isEmpty()) {
-            Node current = queue.poll();
+            Point current = queue.poll();
             for (int i = 0; i < 4; i++) {
-                int nx = x + dx[i];
-                int ny = y + dy[i];
+                int nx = current.x + dx[i];
+                int ny = current.y + dy[i];
                 if (nx >= 0 && nx < 5 && ny >= 0 && ny < 5 && !visited[nx][ny]) {
                     visited[nx][ny] = true;
-                    if (room[nx][ny] == 'X') continue;
+                    if (room[nx][ny] == 'X' || (Math.abs(nx-x) +Math.abs(ny-y)) > 2) continue;
                     if (room[nx][ny] == 'P') return false;
-                    queue.offer(new Node(nx, ny));
+                    queue.offer(new Point(nx, ny));
                 }
             }
         }

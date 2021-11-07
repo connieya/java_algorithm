@@ -1,76 +1,31 @@
 package com.company.kakao2021;
 
 import java.util.ArrayList;
+import java.util.Arrays;
+import java.util.List;
 import java.util.Scanner;
 
 public class Test1 {
     public static void main(String[] args) {
-
-
-        int answer = 0;
-
-        String s = "one4seveneight";
-        String tmp = "";
-        String tmp2 = "";
-
-
-
-        for (char c : s.toCharArray()){
-            if (!Character.isAlphabetic(c)) tmp +=c;
-            else {
-                tmp2+= c;
-                switch (tmp2){
-                    case "one":
-                        tmp+=1;
-                        tmp2 ="";
-                        break;
-                    case "two":
-                        tmp+=2;
-                        tmp2 ="";
-                        break;
-                    case "three":
-                        tmp+=3;
-                        tmp2 ="";
-                        break;
-                    case "four":
-                        tmp+=4;
-                        tmp2 ="";
-                        break;
-                    case "five":
-                        tmp+=5;
-                        tmp2 ="";
-                        break;
-                    case "six":
-                        tmp+=6;
-                        tmp2 ="";
-                        break;
-                    case "seven":
-                        tmp+=7;
-                        tmp2 ="";
-                        break;
-                    case "eight":
-                        tmp+=8;
-                        tmp2 ="";
-                        break;
-                    case "nine":
-                        tmp+=9;
-                        tmp2 ="";
-                        break;
-                }
-
+        String alpha[] = {"zero", "one", "two", "three", "four", "five", "six", "seven", "eight", "nine"};
+        String s = "23four5six7";
+        StringBuilder sb = new StringBuilder();
+        String str = "";
+        for (char ch : s.toCharArray()) {
+            if (Character.isDigit(ch)) {
+                sb.append(ch);
+                str = "";
+                continue;
             }
-
+            str += ch;
+            int index = Arrays.asList(alpha).indexOf(str);
+            if (index != -1) {
+                sb.append(index);
+                str = "";
+            }
         }
-        answer = Integer.parseInt(tmp);
-        System.out.println(answer);
 
-
-
-
-
+        System.out.println(sb.toString());
 
     }
-
-
-
 }
