@@ -1,6 +1,6 @@
 package com.company.kakao2021;
 
-public class Test2_1 {
+public class 거리두기확인하기 {
     public static void main(String[] args) {
 
         String [][] places = { {"POOOP" , "OXXOX", "OPXPX" ,"OOXOX","POXXP"},
