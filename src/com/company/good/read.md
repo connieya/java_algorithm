@@ -1,5 +1,7 @@
-참고
+사이트
+- [그림으로 보는 알고리즘](https://visualgo.net/ko)
 
+참고
 - [서로 다른 세개의 수](./서로_다른_세개의수.java)
 - [아스키코드](../pattern/아스키코드.md)
 - [나머지와 몫](../pattern/나머지.md)
@@ -25,6 +27,12 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [최대 공약수 유클리드 호제법](../study/exam/최대공약수_유클리드.java)
 - [최소 공배수](../baekjoon/math1/최소공배수_1934.java)
 - [에사토스테네스 체](../study/math/에라토스테네스.java)
+
+정렬
+- [선택 정렬](../study/sort/선택정렬.md)
+- [삽입 정렬](../study/sort/삽입정렬.md)
+- [퀵 정렬](../study/sort/퀵정렬.md)
+- [계수 정렬](../study/sort/CountSort.java)
 
 순열
 
