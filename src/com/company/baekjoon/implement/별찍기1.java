@@ -1,20 +1,20 @@
-package com.company.study.week7;
+package com.company.baekjoon.implement;
 
 import java.io.BufferedReader;
 import java.io.IOException;
 import java.io.InputStreamReader;
 
-public class 악수_8394 {
+public class 별찍기1 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         int n = Integer.parseInt(br.readLine());
-        int x = 1;
-        int y = 2;
-        for (int i = 2; i <= n; i++) {
-            int temp = y;
-            y = (x + y) % 10;
-            x = temp;
+        StringBuilder sb = new StringBuilder();
+        for (int i=0; i<n; i++) {
+            for (int j=n-i-1; j <n; j++) {
+               sb.append("*");
+            }
+            sb.append("\n");
         }
-        System.out.println(x);
+        System.out.println(sb);
     }
 }

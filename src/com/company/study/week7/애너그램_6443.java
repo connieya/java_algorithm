@@ -1,44 +1,50 @@
 package com.company.study.week7;
 
-import java.util.Arrays;
-import java.util.HashSet;
-import java.util.Set;
+import java.io.*;
+import java.util.*;
 
 public class 애너그램_6443 {
-    static char array[], answer[];
+    static char array[], answer[], mx[];
     static boolean visited[];
-    static Set<String> set = new HashSet<>();
+    static BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
 
-    public static void main(String[] args) {
-        String str = "abca";
-        array = new char[str.length()];
-        answer = new char[str.length()];
-        visited = new boolean[str.length()];
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
 
-        for (int i = 0; i < str.length(); i++) {
-            array[i] = str.charAt(i);
+        int N = Integer.parseInt(br.readLine());
+        while (N-- > 0) {
+            String str = br.readLine();
+            array = new char[str.length()];
+            answer = new char[str.length()];
+            visited = new boolean[str.length()];
+            for (int i = 0; i < str.length(); i++) {
+                array[i] = str.charAt(i);
+            }
+            Arrays.sort(array);
+            dfs(0, str.length());
+
         }
-        Arrays.sort(array);
-        dfs(0, str.length());
-        for (String st : set) {
-            System.out.println(st);
-        }
-
+        br.close();
+        bw.close();
     }
 
-    public static void dfs(int depth, int len) {
+    public static void dfs(int depth, int len) throws IOException {
         if (depth == len) {
             StringBuilder sb = new StringBuilder();
             for (char ch : answer) {
                 sb.append(ch);
             }
-            set.add(sb.toString());
+            bw.write(sb.toString());
+            bw.write("\n");
+            bw.flush();
             return;
         }
+        char before = ' ';
         for (int i = 0; i < len; i++) {
-            if (!visited[i]) {
+            if (!visited[i] && before != array[i]) {
                 visited[i] = true;
                 answer[depth] = array[i];
+                before = array[i];
                 dfs(depth + 1, len);
                 visited[i] = false;
 

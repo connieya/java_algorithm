@@ -74,7 +74,7 @@ N 과 M
 비트마스크 
 
 - [비트마스크 개념 ](../baekjoon/brute_force/비트마스크.md)
-- [비트마스크 기본 개념 코드](../study/exam/Test.java)
+- [비트마스크 기본 개념 코드](../study/bit/Test.java)
 - [비트마스크 쓰기전 배열과 switch로 풀이한 집합 문제](../baekjoon/brute_force/집합_11723.java)
 - [비트마스크 사용한 집합 풀이](../baekjoon/brute_force/집합_11723_비트마스크.java)
 
