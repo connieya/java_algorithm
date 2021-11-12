@@ -26,7 +26,7 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [최대 공약수 기본](../study/exam/최대공약수_1.java)
 - [최대 공약수 유클리드 호제법](../study/exam/최대공약수_유클리드.java)
 - [최소 공배수](../baekjoon/math1/최소공배수_1934.java)
-- [에사토스테네스 체](../study/math/에라토스테네스.java)
+- [에라토스테네스 체](../study/math/에라토스테네스.java)
 
 정렬
 - [선택 정렬](../study/sort/선택정렬.md)
@@ -41,7 +41,7 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [모든 순열](../baekjoon/brute_force/모든순열_10974.java)
 - [중복 순열](../study/exam/증복순열구하기.java)
 
-DFS & BFS 정복하자 제발......... ㅜ
+DFS & BFS 
 
 - [이진트리 순회 DFS 전위,중위 후위](../study/exam/DFS.java)
 - [부분집합 구하기(DFS)](../study/exam/부분집합.java)

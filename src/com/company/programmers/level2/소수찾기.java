@@ -1,75 +1,52 @@
 package com.company.programmers.level2;
 
 public class 소수찾기 {
-    public static void main(String[] args) {
-        String numbers = "017";
-        String[] numbersArr = numbers.split("");
+    static boolean viisted[], prime[];
+    static char ch[];
+    static int count;
 
-        boolean prime[] = new boolean[10_000_001];
-        boolean check[]= new boolean[10_000_001];
+    public static void main(String[] args) {
+        String numbers = "17";
+        char number[] = new char[numbers.length()];
+        viisted = new boolean[number.length];
+        ch = new char[number.length];
+        for (int i = 0; i < number.length; i++) {
+            number[i] = numbers.charAt(i);
+        }
+        prime = new boolean[10_000_000];
         prime[0] = true;
         prime[1] = true;
         for (int i = 2; i * i < prime.length; i++) {
-            if (prime[i]) continue;
-
+            if (prime[i]) {
+                continue;
+            }
             for (int j = i + i; j < prime.length; j += i) {
                 prime[j] = true;
             }
         }
-        int count =0;
-        for (String s : numbersArr) {
-            if (!prime[Integer.valueOf(s)] && !check[Integer.valueOf(s)]){
-                check[Integer.valueOf(s)] = true;
-                count++;
-            }
-        }
-
-        int arr[] = new int[numbers.length()];
-        for (int i = 0; i < arr.length; i++) {
-            arr[i] = i;
-        }
-        do {
-            StringBuilder sb = new StringBuilder();
-            for (int i : arr) {
-                sb.append(numbersArr[i]);
-            }
-            int isPrime = Integer.valueOf(sb.toString());
-            if (!prime[isPrime] && !check[isPrime]) {
-                check[isPrime] = true;
-                count++;
-            }
-
-        } while (next_permutation(arr));
-
+        dfs(0, number);
         System.out.println(count);
     }
 
-    public static boolean next_permutation(int[] arr) {
-        int i = arr.length - 1;
-        while (i > 0 && arr[i - 1] >= arr[i]) {
-            i--;
+    public static void dfs(int depth, char number[]) {
+        if (depth == number.length) {
+            String str = "";
+            for (char ch : number) {
+                str += ch;
+            }
+            System.out.println(str);
+            if (!prime[Integer.parseInt(str)]) {
+                count++;
+            }
+            return;
         }
-        if (i <= 0) {
-            return false;
+        for (int i = 0; i < number.length; i++) {
+            if (!viisted[i]) {
+                viisted[i] = true;
+                ch[depth] = number[i];
+                dfs(depth+1,number);
+                viisted[i] = false;
+            }
         }
-
-        int j = arr.length - 1;
-        while (arr[i - 1] >= arr[j]) {
-            j--;
-        }
-
-        int temp = arr[i - 1];
-        arr[i - 1] = arr[j];
-        arr[j] = temp;
-
-        j = arr.length - 1;
-        while (i < j) {
-            temp = arr[j];
-            arr[j] = arr[i];
-            arr[i] = temp;
-            i++;
-            j--;
-        }
-        return true;
     }
 }
