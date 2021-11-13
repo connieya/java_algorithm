@@ -1,4 +1,4 @@
-package com.company.inflearn.sec06_sort;
+package com.company.inflearn.sec06_sort_search;
 
 public class 선택정렬 {
     public static void main(String[] args) {

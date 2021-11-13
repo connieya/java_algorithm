@@ -1,4 +1,4 @@
-package com.company.inflearn.sec06_sort;
+package com.company.inflearn.sec06_sort_search;
 
 import java.util.ArrayList;
 import java.util.Scanner;

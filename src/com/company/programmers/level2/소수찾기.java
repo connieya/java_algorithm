@@ -25,28 +25,28 @@ public class 소수찾기 {
             }
         }
         dfs(0, number);
-        System.out.println(count);
     }
 
     public static void dfs(int depth, char number[]) {
         if (depth == number.length) {
             String str = "";
-            for (char ch : number) {
-                str += ch;
+            for (int i = 0; i < number.length; i++) {
+                if (viisted[i]) {
+                    str += ch[i];
+                }
             }
             System.out.println(str);
-            if (!prime[Integer.parseInt(str)]) {
+            if (str.length() > 0 && !prime[Integer.parseInt(str)]) {
                 count++;
             }
             return;
         }
-        for (int i = 0; i < number.length; i++) {
-            if (!viisted[i]) {
-                viisted[i] = true;
-                ch[depth] = number[i];
-                dfs(depth+1,number);
-                viisted[i] = false;
-            }
-        }
+        viisted[depth] = true;
+        ch[depth] = number[depth];
+        dfs(depth + 1, number);
+        viisted[depth] = false;
+        ch[depth] = number[depth];
+        dfs(depth + 1, number);
+
     }
 }

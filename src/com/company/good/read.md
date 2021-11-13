@@ -70,6 +70,8 @@ N 과 M
 
 - [조합 구하기](../study/exam/조합구하기.java)
 
+searching(이분 검색과 결정알고리즘)
+- [뮤직비디오(결정알고리즘)](../inflearn/sec06_sort_search/뮤직비디오.md)
 
 비트마스크 
 
@@ -85,3 +87,10 @@ Greedy Algorithm
 - [다익스트라 알고리즘](../study/dijkstra/다익스트라.md)
 - [최대 수입 스케줄(Priority Queue)](../study/dijkstra/최대수입스케줄.java)
 - [친구인가(Union & Find)](../study/exam/친구인가.md)
+- [원더랜드(프림 : PriorityQueue)](../study)
+
+dynamic programming (동적 계획법)
+
+- [최대부분증가수열(LIS 응용)](../study/dp/최대부분증가수열)
+- [가장 높은 탑 쌓기(LIS 응용)](../study/dp/가장높은탑.md)
+- [동전교환(냅색 알고리즘)](../inflearn/sec10_dp/동전교환.md)
