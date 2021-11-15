@@ -43,11 +43,31 @@ public class 다익스트라알고리즘 {
             graph.get(a).add(new Node(b,v));
         }
         Arrays.fill(dy,Integer.MAX_VALUE);
-        dy[1] = 0;
-        dijkstra(1);
+        dijkstra(2);
+        for (int i =1; i<=N; i++) {
+            if (dy[i] != Integer.MAX_VALUE) {
+                System.out.println(i+" : "+dy[i] );
+            }else {
+                System.out.println(i+" : impossible");
+            }
+        }
 
     }
-    public static void dijkstra(int start) {
+    public static void dijkstra(int v) {
         PriorityQueue<Node> pq = new PriorityQueue<>();
+        pq.offer(new Node(v,0));
+        dy[v] = 0;
+        while (!pq.isEmpty()) {
+            Node current = pq.poll();
+            if (dy[current.edge] < current.distance) {
+                continue;
+            }
+            for (Node next : graph.get(current.edge)){
+                if (dy[next.edge] > current.distance + next.distance){
+                    dy[next.edge] =  current.distance + next.distance;
+                    pq.offer(new Node(next.edge,current.distance+next.distance));
+                }
+            }
+        }
     }
 }

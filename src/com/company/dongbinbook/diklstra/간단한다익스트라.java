@@ -8,13 +8,18 @@ import java.util.Arrays;
 import java.util.List;
 import java.util.StringTokenizer;
 
-class Node {
+class Node implements Comparable<Node> {
     int edge;
     int distance;
 
     public Node(int edge, int distance) {
         this.edge = edge;
         this.distance = distance;
+    }
+
+    @Override
+    public int compareTo(Node o) {
+        return this.distance - o.distance;
     }
 }
 

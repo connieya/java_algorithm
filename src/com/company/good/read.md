@@ -6,6 +6,7 @@
 - [아스키코드](../pattern/아스키코드.md)
 - [나머지와 몫](../pattern/나머지.md)
 - [compareTo](./CompareToTest.java)
+- [자리수 구하기](../good/자리수구하기.java)
 
 진법
 - [2진법](../study/exam/진법2.md)
