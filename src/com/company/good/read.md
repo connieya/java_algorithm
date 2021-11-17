@@ -41,6 +41,7 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [이전 순열](../baekjoon/brute_force/이전순열_10973.java)
 - [모든 순열](../baekjoon/brute_force/모든순열_10974.java)
 - [중복 순열](../study/exam/증복순열구하기.java)
+- [단어맞추기(다음 순열_알파벳)](../study/week8/단어맞추기_9081.java)
 
 DFS & BFS 
 

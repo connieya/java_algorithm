@@ -16,6 +16,9 @@ public class 위장 {
            map.put(clothes[i][1] , map.getOrDefault(clothes[i][1],0)+1);
        }
         Iterator<String> iterator = map.keySet().iterator();
+        for (int value : map.values()) {
+
+        }
         while (iterator.hasNext()){
             System.out.println(map.get(iterator));
         }
