@@ -7,10 +7,12 @@
 - [나머지와 몫](../pattern/나머지.md)
 - [compareTo](./CompareToTest.java)
 - [자리수 구하기](../good/자리수구하기.java)
+- [문자열압축](../good/문자열압축.java)
 
 진법
 - [2진법](../study/exam/진법2.md)
 - [3진법](../study/exam/진법3.md)
+- [2진수 -> 10진수](../good/진수변환.java);
 
 LinkedList 
 - [LinkedList 구현 해보기](../study/datastructure/linkedlist/Impl.java)
