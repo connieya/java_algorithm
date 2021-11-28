@@ -36,6 +36,7 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [삽입 정렬](../study/sort/삽입정렬.md)
 - [퀵 정렬](../study/sort/퀵정렬.md)
 - [계수 정렬](../study/sort/CountSort.java)
+- [Comparable](../dongbinbook/question/sort/국영수_10825.java)
 
 순열
 
@@ -76,6 +77,7 @@ N 과 M
 
 searching(이분 검색과 결정알고리즘)
 - [뮤직비디오(결정알고리즘)](../inflearn/sec06_sort_search/뮤직비디오.md)
+- [정렬된 배열에서 특정 수의 개수 구하기(중복 원소 길이 구하기 - lower_bound , upper_bound)](../good/상한하한.md)
 
 비트마스크 
 

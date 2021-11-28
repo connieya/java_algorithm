@@ -4,28 +4,29 @@ import java.util.Arrays;
 
 public class 떡볶이떡만들기 {
     public static void main(String[] args) {
-        int riceCake[] = {19, 15, 10, 17};
+        int n = 4;
         int m = 6;
+        int riceCake[] = {19, 15, 10, 17};
         Arrays.sort(riceCake);
-        int max = riceCake[riceCake.length - 1];
         int start = 0;
+        int end = riceCake[n - 1];
         int answer = -1;
-        while (start <= max) {
-            int mid = (start + max) / 2;
-            int sum = 0;
-            for (int rice : riceCake) {
-                if (rice > mid) {
-                    sum += (rice - mid);
+        while (start <= end) {
+            int mid = (start + end) / 2;
+            int target = 0;
+            for (int cake : riceCake) {
+                if (cake > mid) {
+                    target += cake - mid;
                 }
             }
-
-            if (sum >= m) {
+            if (target >= m) {
                 answer = mid;
-                start = mid + 1;
+                start = mid+1;
             } else {
-                max = mid - 1;
+                end = mid -1;
             }
         }
         System.out.println(answer);
+
     }
 }
