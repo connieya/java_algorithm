@@ -8,6 +8,8 @@
 - [compareTo](./CompareToTest.java)
 - [자리수 구하기](../good/자리수구하기.java)
 - [문자열압축](../good/문자열압축.java)
+- [정수 뒤집기](../good/1357.cpp)
+
 
 진법
 - [2진법](../study/exam/진법2.md)
