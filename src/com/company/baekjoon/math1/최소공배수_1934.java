@@ -14,7 +14,7 @@ public class 최소공배수_1934 {
             int a = Integer.parseInt(st.nextToken());
             int b = Integer.parseInt(st.nextToken());
             int gcd = gcd(a, b);
-            System.out.println(gcd * (a / gcd) * (b / gcd));
+            System.out.println(a*b/gcd);
         }
     }
 
