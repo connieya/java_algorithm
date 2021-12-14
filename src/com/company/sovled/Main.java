@@ -1,10 +1,14 @@
 package com.company.sovled;
 
+import java.util.ArrayList;
+import java.util.List;
+
 public class Main {
     public static void main(String[] args) {
-        char str1[] = {'a','b','c'};
-        char str2[] = {'a','c','b'};
-        System.out.println(str1[1] < str2[1]);
-        System.out.println(str1[1] > str2[1]);
+        List<Character> list = new ArrayList<>();
+        list.add('d');
+        list.add('m');
+        list.add(2,'x');
+        System.out.println(list);
     }
 }
