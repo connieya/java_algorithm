@@ -1,14 +1,19 @@
 package com.company.sovled;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.ArrayDeque;
+import java.util.Deque;
+import java.util.StringTokenizer;
+
 
 public class Main {
+    static char c;
     public static void main(String[] args) {
-        List<Character> list = new ArrayList<>();
-        list.add('d');
-        list.add('m');
-        list.add(2,'x');
-        System.out.println(list);
+        String str = "__*__";
+        for (int i=0; i<str.length(); i++){
+            if (str.charAt(i)=='*'){
+                System.out.println(i);
+                break;
+            }
+        }
     }
 }
