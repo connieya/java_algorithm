@@ -1,19 +1,17 @@
 package com.company.sovled;
 
-import java.util.ArrayDeque;
-import java.util.Deque;
-import java.util.StringTokenizer;
 
+import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.List;
+import java.util.Map;
 
 public class Main {
-    static char c;
+    static String s;
     public static void main(String[] args) {
-        String str = "__*__";
-        for (int i=0; i<str.length(); i++){
-            if (str.charAt(i)=='*'){
-                System.out.println(i);
-                break;
-            }
-        }
+        Map<String ,List<String>> map = new HashMap<>();
+        System.out.println(map.get("Baba"));
+        System.out.println(s);
+        System.out.println(s==null);
     }
 }
