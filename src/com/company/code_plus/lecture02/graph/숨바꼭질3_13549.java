@@ -18,39 +18,42 @@ class Direction {
 }
 
 public class 숨바꼭질3_13549 {
-    static int min;
+    static int ans = 0;
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
         StringTokenizer st = new StringTokenizer(br.readLine());
         int n = Integer.parseInt(st.nextToken());
         int k = Integer.parseInt(st.nextToken());
-        bfs(n,k);
-        System.out.println(min);
+        if (n >= k) {
+            System.out.println(n - k);
+        } else {
+            bfs(n, k);
+            System.out.println(ans);
+        }
     }
 
     public static void bfs(int n, int k) {
-      boolean visited[] = new boolean[100_001];
-        Queue<Direction> queue = new LinkedList<>();
+        boolean visited[] = new boolean[100_001];
+        visited[n] = true;
+        LinkedList<Direction> queue = new LinkedList<>();
         queue.offer(new Direction(n, 0));
-        int next = 0;
-        min = Integer.MAX_VALUE;
-        while (!queue.isEmpty()) {
-            Direction current = queue.poll();
-            visited[current.direction] = true;
-            if (current.direction == k && min > current.time) {
-                    min = current.time;
+        while (!queue.isEmpty()){
+            Direction cur = queue.pollFirst();
+            if (cur.direction == k){
+                ans = cur.time;
+                break;
             }
-            next = current.direction+1;
-            if (next <100_001 && !visited[next]) {
-                queue.offer(new Direction(next , current.time+1));
-            }
-            next = current.direction-1;
-            if (next > 0 && !visited[next]) {
-                queue.offer(new Direction(next , current.time+1));
-            }
-            next =current.direction*2;
-            if (next < 100_001 && !visited[next]) {
-                queue.offer(new Direction(next , current.time));
+            int dx[] = {1,-1, cur.direction};
+            for (int i=0; i<3; i++){
+                int nx = dx[i] + cur.direction;
+                if (nx >=0 && nx<=100000 && !visited[nx]){
+                    visited[nx] = true;
+                    if (i < 2){
+                        queue.addLast(new Direction(nx,cur.time+1));
+                        continue;
+                    }
+                    queue.addFirst(new Direction(nx,cur.time));
+                }
             }
         }
     }
