@@ -88,6 +88,8 @@ searching(이분 검색과 결정알고리즘)
 - [비트마스크 쓰기전 배열과 switch로 풀이한 집합 문제](../baekjoon/brute_force/집합_11723.java)
 - [비트마스크 사용한 집합 풀이](../baekjoon/brute_force/집합_11723_비트마스크.java)
 
+우선순위큐
+- [우선순위큐 직접 구현하기 : 문제 ->최소힙_1927](../sovled/silver1/최소힙_1927.java)
 
 Greedy Algorithm
 
