@@ -1,52 +1,61 @@
 package com.company.programmers;
 
-import java.util.ArrayList;
-import java.util.List;
+import java.util.Arrays;
+import java.util.Collection;
+import java.util.HashMap;
+import java.util.Map;
 
-class Point {
-    int x, y;
+class Node implements Comparable<Node> {
 
-    public Point(int x, int y) {
-        this.x = x;
-        this.y = y;
+    @Override
+    public int compareTo(Node o) {
+        return 0;
     }
 }
 
-public class Main {
+public class Main  {
+    static String str[] = {"kakao", "adsto", "ddddo", "lollo", "sepso", "ziroo", "karoo", "miroo","sallo", "seddo"};
     public static void main(String[] args) {
-        int x[] = {5};
-        int y[] = {5};
-        int r[] = {5};
-        int v[] = {92, 83, 14, 45, 66, 37, 28, 9, 10, 81};
-        int l = Integer.MAX_VALUE;
-        int r1 = Integer.MIN_VALUE;
-        int b = Integer.MAX_VALUE;
-        int t = Integer.MIN_VALUE;
-        for (int i = 0; i < x.length; i++) {
-            l = Math.min(x[i] - r[i], l);
-            r1 = Math.max(x[i] + r[i], r1);
-            b = Math.min(y[i] - r[i], b);
-            t = Math.max(y[i] + r[i], t);
+        Map<String,Integer> map = new HashMap<>();
+        String str[] = {"AC","AC","AC","AC","AC","AC","DD","QWE"};
+        for (String s: str){
+            map.put(s,map.getOrDefault(s,0)+1);
         }
-        List<Point> points = new ArrayList<>();
-        int point[][] = new int[v.length / 2][v.length / 2];
-        for (int i = 0; i < v.length; i++) {
-            int x1 = l + v[i] % (r1 - l);
-            int y1 = b + v[i + 1] % (t - b);
-            i++;
-            points.add(new Point(x1, y1));
+        for (String s : map.keySet()) {
+            System.out.println(s + " " + map.get(s));
         }
-        int count = 0;
-        for (Point p : points) {
-            for (int z = 0; z < x.length; z++) {
-                if (Math.pow(Math.abs(p.x - x[z]), 2) + Math.pow(Math.abs(p.y - y[z]), 2) <= Math.pow(r[z],2)){
-                    count++;
-                    break;
-                }
+
+//        Arrays.sort(str);
+//        for (String s : str) {
+//            System.out.print(s + " ");
+//        }
+//        System.out.println();
+//        System.out.println(lower_bound("aaaao",0,str.length));
+//        System.out.println(upper_bound("zzzzo",0,str.length));
+
+    }
+
+    public static int lower_bound(String target, int lt, int rt) {
+        while (lt < rt) {
+            int mid = (lt + rt) / 2;
+            if (str[mid].compareTo(target) >= 0) {
+                rt = mid;
+            } else {
+                lt = mid + 1;
             }
         }
-        System.out.println(count);
-        int v1 = (int) (count / (double) point.length * (r1 - l) * (t - b));
-        System.out.println(v1);
+        return rt;
+    }
+
+    public static int upper_bound(String target, int lt, int rt) {
+        while (lt < rt) {
+            int mid = (lt + rt) / 2;
+            if (str[mid].compareTo(target) > 0) {
+                rt = mid;
+            } else {
+                lt = mid + 1;
+            }
+        }
+        return rt;
     }
 }
