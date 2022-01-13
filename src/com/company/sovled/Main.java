@@ -9,13 +9,9 @@ import java.util.StringTokenizer;
 
 public class Main {
     public static void main(String[] args) throws IOException {
-            System.out.println(func(12) == func(11));
-            System.out.println(func(2) == func(1));
-            System.out.println(func(5) == func(14));
-            System.out.println(func(19) == func(51));
+          String s1 = "12:00";
+          String s2 = "12:11";
+        System.out.println(s1.compareTo(s2));
     }
 
-    public static int func(int a) {
-        return a % 2;
-    }
 }

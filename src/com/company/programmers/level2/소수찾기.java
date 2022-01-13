@@ -1,18 +1,55 @@
 package com.company.programmers.level2;
 
+import java.util.Arrays;
+
 public class 소수찾기 {
-    static boolean viisted[], prime[];
-    static char ch[];
-    static int count;
+    static boolean prime[];
 
     public static void main(String[] args) {
-        String numbers = "17";
-        char number[] = new char[numbers.length()];
-        viisted = new boolean[number.length];
-        ch = new char[number.length];
-        for (int i = 0; i < number.length; i++) {
-            number[i] = numbers.charAt(i);
+        String numbers = "011";
+        int arr[] = new int[numbers.length()];
+        for (int i = 0; i < numbers.length(); i++) {
+            arr[i] = numbers.charAt(i)-'0';
         }
+        Arrays.sort(arr);
+        do {
+            String tmp = "";
+            for (int i=0; i<arr.length; i++){
+                tmp += arr[i];
+                int num = Integer.parseInt(tmp);
+                System.out.println(num);
+            }
+
+        }while (next_permutation(arr));
+
+    }
+    public static boolean next_permutation(int arr[]) {
+        int i = arr.length - 1;
+        while(i > 0 && arr[i-1] >= arr[i] ) {
+            i--;
+        }
+        if(i <= 0) return false;
+        int j = arr.length -1;
+
+        while(arr[i-1] >= arr[j]) {
+            j--;
+        }
+        int temp = arr[i-1];
+        arr[i-1] = arr[j];
+        arr[j] = temp;
+
+        j = arr.length - 1;
+        while( i < j) {
+            temp = arr[i];
+            arr[i] = arr[j];
+            arr[j] = temp;
+            i++;
+            j--;
+        }
+        return true;
+    }
+
+    public static void init() {
         prime = new boolean[10_000_000];
         prime[0] = true;
         prime[1] = true;
@@ -24,29 +61,5 @@ public class 소수찾기 {
                 prime[j] = true;
             }
         }
-        dfs(0, number);
-    }
-
-    public static void dfs(int depth, char number[]) {
-        if (depth == number.length) {
-            String str = "";
-            for (int i = 0; i < number.length; i++) {
-                if (viisted[i]) {
-                    str += ch[i];
-                }
-            }
-            System.out.println(str);
-            if (str.length() > 0 && !prime[Integer.parseInt(str)]) {
-                count++;
-            }
-            return;
-        }
-        viisted[depth] = true;
-        ch[depth] = number[depth];
-        dfs(depth + 1, number);
-        viisted[depth] = false;
-        ch[depth] = number[depth];
-        dfs(depth + 1, number);
-
     }
 }
