@@ -9,7 +9,9 @@
 - [자리수 구하기](../good/자리수구하기.java)
 - [문자열압축](../good/문자열압축.java)
 - [정수 뒤집기](../good/1357.cpp)
-
+- [올림 계산 팁](../good/올림.md) 
+- [랭킹 순위](../good/랭킹.md)
+- [자카드 유사도  - 중복을 허용하는 교집합&합집합](../good/자카드유사도.java)
 
 진법
 - [2진법](../study2021/exam/진법2.md)
@@ -39,6 +41,7 @@ HashMap, TreeSet(해쉬 , 정렬지원 Set)
 - [퀵 정렬](../study2021/sort/퀵정렬.md)
 - [계수 정렬](../study2021/sort/CountSort.java)
 - [Comparable](../dongbinbook/question/sort/국영수_10825.java)
+- [Double CompareTo ](../programmers/level1/실패율.java)
 
 순열
 
