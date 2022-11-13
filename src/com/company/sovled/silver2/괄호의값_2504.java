@@ -1,4 +1,4 @@
-package com.company.sovled;
+package com.company.sovled.silver2;
 
 import java.io.BufferedReader;
 import java.io.IOException;

@@ -7,6 +7,7 @@ import java.io.InputStreamReader;
 public class 악수_8394 {
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+
         int n = Integer.parseInt(br.readLine());
         int x = 1;
         int y = 2;

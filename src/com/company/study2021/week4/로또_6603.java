@@ -1,6 +1,8 @@
 package com.company.study2021.week4;
 
 import java.io.*;
+import java.util.LinkedList;
+import java.util.Queue;
 import java.util.StringTokenizer;
 
 public class 로또_6603 {
@@ -10,6 +12,8 @@ public class 로또_6603 {
     static  BufferedWriter bw = new BufferedWriter(new OutputStreamWriter(System.out));
     public static void main(String[] args) throws IOException {
         BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        Queue<Integer> queue = new LinkedList<>();
+        queue.isEmpty();
         while (true) {
             StringTokenizer st = new StringTokenizer(br.readLine());
             n = Integer.parseInt(st.nextToken());

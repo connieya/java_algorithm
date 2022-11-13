@@ -1,4 +1,4 @@
-package com.company.sovled;
+package com.company.sovled.gold5;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -6,10 +6,10 @@ import java.io.InputStreamReader;
 import java.util.LinkedList;
 import java.util.Queue;
 
-class Pos {
+class Po {
     int x, y;
 
-    public Pos(int x, int y) {
+    public Po(int x, int y) {
         this.x = x;
         this.y = y;
     }
@@ -59,37 +59,37 @@ public class 적록색약_10026 {
     }
 
     public static void bfs(int x, int y, char standard) {
-        Queue<Pos> queue = new LinkedList<>();
-        queue.add(new Pos(x, y));
+        Queue<Po> queue = new LinkedList<>();
+        queue.add(new Po(x, y));
         while (!queue.isEmpty()) {
-            Pos cur = queue.poll();
+            Po cur = queue.poll();
             for (int i = 0; i < 4; i++) {
                 int nx = dx[i] + cur.x;
                 int ny = dy[i] + cur.y;
                 if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
                 if (grid[nx][ny] != standard || tmp[nx][ny] == 'c') continue;
-                queue.add(new Pos(nx, ny));
+                queue.add(new Po(nx, ny));
                 tmp[nx][ny] = 'c';
 
             }
         }
     }
     public static void bfs2(int x, int y, char standard) {
-        Queue<Pos> queue = new LinkedList<>();
-        queue.add(new Pos(x, y));
+        Queue<Po> queue = new LinkedList<>();
+        queue.add(new Po(x, y));
         while (!queue.isEmpty()) {
-            Pos cur = queue.poll();
+            Po cur = queue.poll();
             for (int i = 0; i < 4; i++) {
                 int nx = dx[i] + cur.x;
                 int ny = dy[i] + cur.y;
                 if (nx < 0 || nx >= n || ny < 0 || ny >= n) continue;
                 if (grid[nx][ny] == standard) {
                     grid[nx][ny] = 'c';
-                    queue.add(new Pos(nx,ny));
+                    queue.add(new Po(nx,ny));
                 }
                 if ((standard=='R' && grid[nx][ny] =='G') || (standard=='G'&& grid[nx][ny] == 'R')){
                     grid[nx][ny] = 'c';
-                    queue.add(new Pos(nx,ny));
+                    queue.add(new Po(nx,ny));
                 }
 
             }
