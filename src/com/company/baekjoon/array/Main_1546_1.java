@@ -2,11 +2,14 @@ package com.company.baekjoon.array;
 
 import java.util.Scanner;
 
+import static java.lang.System.in;
+
+
 public class Main_1546_1 {
     public static void main(String[] args) {
 
 
-        Scanner sc = new Scanner(System.in);
+        Scanner sc = new Scanner(in);
         int n = sc.nextInt();
         int max = -1;
         double sum = 0.0;
