@@ -1,23 +1,26 @@
 package com.company.programmers;
 
+
 public class Main2 {
     public static void main(String[] args) {
-        String [] subway = {
-                "1 2 3 4 5 6 7 8 9",
-                "2 11",
-                "0 11 10",
-                "3 17 19 12 13 9 14 15 10",
-                "20 2 21"
+        int min,tmp;
+        int []numArr = {7,2,5,1,3};
+        System.exit(-1);
+        for (int i=0; i<numArr.length-1; i++) {
+            min = i;
+            for (int j=i+1; j<numArr.length; j++){
+                if (numArr[j] < numArr[min]){
+                    min = j;
+                }
+            }
+            tmp = numArr[i];
+            numArr[i] = numArr[min];
+            numArr[min] = tmp;
+        }
+        for (int x =0; x<numArr.length; x++){
+            System.out.print( numArr[x]+" ");
+        }
 
-        };
-
-        String s = "1 2 3 4 5 6 7 8 9";
-        String s1 = s.replace(" ", "");
-        int start = 1;
-        int end = 9;
-        String answer = String.valueOf(start)+String.valueOf(end);
-        System.out.println(s1);
-        System.out.println(answer);
-        System.out.println(s1.contains(String.valueOf(end)));
     }
+
 }

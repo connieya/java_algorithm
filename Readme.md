@@ -22,6 +22,9 @@
 |Lv.0| [n의 배수 구하기](https://programmers.co.kr/learn/courses/30/lessons/120905) | Arrays.stream , ArrayList |[코드](src/com/company/programmers/level0/배수고르기.md) |
 |Lv.0| [세균 증식](https://programmers.co.kr/learn/courses/30/lessons/120910) | 비트 연산자 |[코드](src/com/company/programmers/level0/세균증식.md) |
 |Lv.0| [문자열 정렬하기(2)](https://programmers.co.kr/learn/courses/30/lessons/120911) | Arrays.sort() , toLowerCase() ,toCharArray() |[코드](src/com/company/programmers/level0/문자열정렬하기.md) |
+|Lv.0| [전국 대회 선발 고사](https://programmers.co.kr/learn/courses/30/lessons/181851) | sort() , Comparator |[코드](src/com/company/programmers/level0/전국대회선발고사.md) |
+|Lv.0| [뒤에서 5등 위로 ](https://programmers.co.kr/learn/courses/30/lessons/181852) | Arrays.sort() , Arrays.copyOfRange |[코드](src/com/company/programmers/level0/뒤에서5등위로.md) |
+|Lv.0| [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940) | 문자열 결합 |[코드](src/com/company/programmers/level0/문자열곱하기.md) |
 
 
 
