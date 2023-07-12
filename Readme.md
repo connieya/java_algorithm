@@ -32,7 +32,9 @@
 | Lv.0 | [세 개의 구분자](https://programmers.co.kr/learn/courses/30/lessons/181862)              | List ,구현                                     | [코드](src/com/company/programmers/level0/세개의구분자.md)    |
 | Lv.0 | [문자열이 몇 번 등장하는지 세기](https://programmers.co.kr/learn/courses/30/lessons/181871)     | 구현  , subString , startWith                  | [코드](src/com/company/programmers/level0/문자열몇번.md)     |
 | Lv.0 | [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940)               | 문자열 결합                                       | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
-| Lv.1 | [바탕화면 정리](https://programmers.co.kr/learn/courses/30/lessons/161990)               |  구현                                 | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
+| Lv.1 | [신고 결과 받기 ](https://programmers.co.kr/learn/courses/30/lessons/92334)              | 구현 , Map                                     | [코드](src/com/company/programmers/level1/신고결과받기.md)    |
+| Lv.1 | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)                 | 그리드,   구현                                    | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
+| Lv.1 | [바탕화면 정리](https://programmers.co.kr/learn/courses/30/lessons/161990)               | 구현                                           | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | Lv.1 | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)                 | HashMap , 구현                                 | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | Lv.1 | [추억 점수](https://programmers.co.kr/learn/courses/30/lessons/176963)                 | HashMap , getOrDefault()                     | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                 | [코드](src/com/company/programmers/level1/달리기경주.md)     |
