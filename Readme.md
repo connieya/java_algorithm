@@ -29,6 +29,8 @@
 |Lv.0| [전국 대회 선발 고사](https://programmers.co.kr/learn/courses/30/lessons/181851)           | sort() , Comparator                          | [코드](src/com/company/programmers/level0/전국대회선발고사.md)  |
 |Lv.0| [뒤에서 5등 위로 ](https://programmers.co.kr/learn/courses/30/lessons/181852)            | Arrays.sort() , Arrays.copyOfRange           | [코드](src/com/company/programmers/level0/뒤에서5등위로.md)   |
 |Lv.0| [배열의 길이를 2의 거듭제곱으로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181857) | for문 , 구현                                    | [코드](src/com/company/programmers/level0/배열길이2의거듭.md)  |
+|Lv.0| [세 개의 구분자](https://programmers.co.kr/learn/courses/30/lessons/181862)              | List ,구현                                     | [코드](src/com/company/programmers/level0/세개의구분자.md)    |
+|Lv.0| [문자열이 몇 번 등장하는지 세기](https://programmers.co.kr/learn/courses/30/lessons/181871)     | 구현  , subString , startWith                  | [코드](src/com/company/programmers/level0/문자열몇번.md)     |
 |Lv.0| [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940)               | 문자열 결합                                       | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 
 
