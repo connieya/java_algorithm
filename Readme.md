@@ -44,6 +44,7 @@
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove              | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                        | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                          | [코드](src/com/company/programmers/level2/할인행사.md)      |
+| Lv.2 | [연속 부분 수열 합의 개수](https://programmers.co.kr/learn/courses/30/lessons/131701)           | 구현 , 모듈러 연산  | [코드](src/com/company/programmers/level2/연속부분수열.md)     |
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                         | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [무인도 여행](https://programmers.co.kr/learn/courses/30/lessons/154538)                | 큐 , BFS  ,  Character.getNumericValue , List 정렬 | [코드](src/com/company/programmers/level2/무인도여행.md)     |
 
