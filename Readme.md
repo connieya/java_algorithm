@@ -35,6 +35,7 @@
 | Lv.1 | [신고 결과 받기 ](https://programmers.co.kr/learn/courses/30/lessons/92334)              | 구현 , Map                                     | [코드](src/com/company/programmers/level1/신고결과받기.md)    |
 | Lv.1 | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)              | ArrayList , remove   , 배열 ,구현                | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
 | Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                   | [코드](src/com/company/programmers/level1/개인정보수집.md)    |
+| Lv.1 | [둘만의 암호](https://programmers.co.kr/learn/courses/30/lessons/155652)                | 구현 ,아스키 코드                                   | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
 | Lv.1 | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)                 | 그리드,   구현                                    | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
 | Lv.1 | [바탕화면 정리](https://programmers.co.kr/learn/courses/30/lessons/161990)               | 구현                                           | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | Lv.1 | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)                 | HashMap , 구현                                 | [코드](src/com/company/programmers/level1/공원산책.md)      |
