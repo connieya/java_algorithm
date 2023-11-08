@@ -49,6 +49,7 @@
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                         | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                      | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
 | Lv.2 | [무인도 여행](https://programmers.co.kr/learn/courses/30/lessons/154540)                | 큐 , BFS  ,  Character.getNumericValue , List 정렬 | [코드](src/com/company/programmers/level2/무인도여행.md)     |
+| Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                | DP | [코드](src/com/company/programmers/level3/보행자천국.md)     |
 
 
 
