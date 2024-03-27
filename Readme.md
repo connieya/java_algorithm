@@ -50,6 +50,7 @@
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                    | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort       | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                  | [코드](src/com/company/programmers/level2/기능개발.md)      |
+| Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                      | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove              | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                        | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                          | [코드](src/com/company/programmers/level2/할인행사.md)      |
