@@ -48,6 +48,7 @@
 | Lv.1 | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)                 | HashMap , 구현                                    | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | Lv.1 | [추억 점수](https://programmers.co.kr/learn/courses/30/lessons/176963)                 | HashMap , getOrDefault()                        | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                    | [코드](src/com/company/programmers/level1/달리기경주.md)     |
+| Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort       | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                  | [코드](src/com/company/programmers/level2/기능개발.md)      |
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove              | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                        | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
@@ -56,7 +57,7 @@
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                         | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                      | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
 | Lv.2 | [무인도 여행](https://programmers.co.kr/learn/courses/30/lessons/154540)                | 큐 , BFS  ,  Character.getNumericValue , List 정렬 | [코드](src/com/company/programmers/level2/무인도여행.md)     |
-| Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                | DP | [코드](src/com/company/programmers/level3/보행자천국.md)     |
+| Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                  | DP                                              | [코드](src/com/company/programmers/level3/보행자천국.md)     |
 
 
 
