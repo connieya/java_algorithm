@@ -42,6 +42,7 @@
 | Lv.1 | [두 개 뽑아서 더하기 ](https://programmers.co.kr/learn/courses/30/lessons/68644)           | Stream , distinct , sorted , mapToInt , toArray      | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | Lv.1 | [내적 ](https://programmers.co.kr/learn/courses/30/lessons/70128)                    | IntStream , range , sum                              | [코드](src/com/company/programmers/level1/내적.md)        |
 | Lv.1 | [신고 결과 받기 ](https://programmers.co.kr/learn/courses/30/lessons/92334)              | 구현 , Map                                             | [코드](src/com/company/programmers/level1/신고결과받기.md)    |
+| Lv.1 | [숫자 짝꿍 ](https://programmers.co.kr/learn/courses/30/lessons/131128)                | 배열 LookUp 테이블 , 문자열 -> 숫자 , 숫자 -> 문자열 변환             | [코드](src/com/company/programmers/level1/숫자짝꿍.md)      |
 | Lv.1 | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)              | ArrayList , remove   , 배열 ,구현                        | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
 | Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/개인정보수집.md)    |
 | Lv.1 | [둘만의 암호](https://programmers.co.kr/learn/courses/30/lessons/155652)                | 구현 ,아스키 코드                                           | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
@@ -53,7 +54,7 @@
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
 | Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                           | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
-| Lv.2 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)               | isDigit , next_permutation , dfs , 백트래킹 ,List remove | [코드](src/com/company/programmers/level2/수식최대화.md)     |
+| Lv.2 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)                 | isDigit , next_permutation , dfs , 백트래킹 ,List remove | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove                   | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                             | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                               | [코드](src/com/company/programmers/level2/할인행사.md)      |
