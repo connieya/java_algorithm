@@ -55,6 +55,7 @@
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                         | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
+| Lv.2 | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)                 | 정렬    , 람다 , stream collect , String.join            | [코드](src/com/company/programmers/level2/가장큰수.md)      |
 | Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                           | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)                 | isDigit , next_permutation , dfs , 백트래킹 ,List remove | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | Lv.2 | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)           | 재귀, 구현                                               | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
