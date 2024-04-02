@@ -47,7 +47,8 @@
 | Lv.1 | [옹알이(2) ](https://programmers.co.kr/learn/courses/30/lessons/133499)               | List Contains , 문자열 구현  ,replace                     | [코드](src/com/company/programmers/level1/옹알이(2).md)    |
 | Lv.1 | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)              | ArrayList , remove   , 배열 ,구현                        | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
 | Lv.1 | [기사단원의 무기 ](https://programmers.co.kr/learn/courses/30/lessons/136798)             | 약수 구하기, 구현                                           | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
-| Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/개인정보수집.md)    |
+| Lv.1 | [문자열 나누기 ](https://programmers.co.kr/learn/courses/30/lessons/140108)              | 문자열 구현                                               | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
+| Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1 | [둘만의 암호](https://programmers.co.kr/learn/courses/30/lessons/155652)                | 구현 ,아스키 코드                                           | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
 | Lv.1 | [대충 만든 자판](https://programmers.co.kr/learn/courses/30/lessons/160586)              | Map, 구현                                              | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
 | Lv.1 | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)                 | 그리드,   구현                                            | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
