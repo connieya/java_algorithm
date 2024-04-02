@@ -49,13 +49,14 @@
 | Lv.1 | [기사단원의 무기 ](https://programmers.co.kr/learn/courses/30/lessons/136798)             | 약수 구하기, 구현                                           | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
 | Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/개인정보수집.md)    |
 | Lv.1 | [둘만의 암호](https://programmers.co.kr/learn/courses/30/lessons/155652)                | 구현 ,아스키 코드                                           | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
+| Lv.1 | [대충 만든 자판](https://programmers.co.kr/learn/courses/30/lessons/160586)              | Map, 구현                                              | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
 | Lv.1 | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)                 | 그리드,   구현                                            | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
 | Lv.1 | [바탕화면 정리](https://programmers.co.kr/learn/courses/30/lessons/161990)               | 구현                                                   | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | Lv.1 | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)                 | HashMap , 구현                                         | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | Lv.1 | [추억 점수](https://programmers.co.kr/learn/courses/30/lessons/176963)                 | HashMap , getOrDefault()                             | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                         | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
-| Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식각격.md)      |
+| Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
 | Lv.2 | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)                 | 정렬    , 람다 , stream collect , String.join            | [코드](src/com/company/programmers/level2/가장큰수.md)      |
 | Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                           | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
