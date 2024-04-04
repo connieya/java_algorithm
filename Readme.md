@@ -40,6 +40,7 @@
 | Lv.0 | [문자열이 몇 번 등장하는지 세기](https://programmers.co.kr/learn/courses/30/lessons/181871)     | 구현  , subString , startWith                          | [코드](src/com/company/programmers/level0/문자열몇번.md)     |
 | Lv.0 | [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940)               | 문자열 결합                                               | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 | Lv.1 | [문자열 내 마음대로 정렬하기 ](https://programmers.co.kr/learn/courses/30/lessons/12915)       | 구현 센스 , Comparator 람다                                | [코드](src/com/company/programmers/level1/문자열마음대로정렬.md) |
+| Lv.1 | [소수 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/12921)                 | 에라토스테네스의 체                                           | [코드](src/com/company/programmers/level1/소수찾기.md)      |
 | Lv.1 | [두 개 뽑아서 더하기 ](https://programmers.co.kr/learn/courses/30/lessons/68644)           | Stream , distinct , sorted , mapToInt , toArray      | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | Lv.1 | [내적 ](https://programmers.co.kr/learn/courses/30/lessons/70128)                    | IntStream , range , sum                              | [코드](src/com/company/programmers/level1/내적.md)        |
 | Lv.1 | [신고 결과 받기 ](https://programmers.co.kr/learn/courses/30/lessons/92334)              | 구현 , Map                                             | [코드](src/com/company/programmers/level1/신고결과받기.md)    |
@@ -47,7 +48,8 @@
 | Lv.1 | [숫자 짝꿍 ](https://programmers.co.kr/learn/courses/30/lessons/131128)                | 배열 LookUp 테이블 , 문자열 -> 숫자 , 숫자 -> 문자열 변환 , repeat    | [코드](src/com/company/programmers/level1/숫자짝꿍.md)      |
 | Lv.1 | [옹알이(2) ](https://programmers.co.kr/learn/courses/30/lessons/133499)               | List Contains , 문자열 구현  ,replace                     | [코드](src/com/company/programmers/level1/옹알이(2).md)    |
 | Lv.1 | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)              | ArrayList , remove   , 배열 ,구현                        | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
-| Lv.1 | [푸드 파이트 대화 ](https://programmers.co.kr/learn/courses/30/lessons/134240)            | StringBuilder reverse , repeat                       | [코드](src/com/company/programmers/level1/푸드파이트대회.md)   |
+| Lv.1 | [푸드 파이트 대회 ](https://programmers.co.kr/learn/courses/30/lessons/134240)            | StringBuilder reverse , repeat                       | [코드](src/com/company/programmers/level1/푸드파이트대회.md)   |
+| Lv.1 | [과일 장수 ](https://programmers.co.kr/learn/courses/30/lessons/135808)                | 정렬 sort                                              | [코드](src/com/company/programmers/level1/과일장수.md)      |
 | Lv.1 | [기사단원의 무기 ](https://programmers.co.kr/learn/courses/30/lessons/136798)             | 약수 구하기, 구현                                           | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
 | Lv.1 | [문자열 나누기 ](https://programmers.co.kr/learn/courses/30/lessons/140108)              | 문자열 구현                                               | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1 | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)         | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
