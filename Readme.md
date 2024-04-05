@@ -67,6 +67,7 @@
 | Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                           | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)                 | isDigit , next_permutation , dfs , 백트래킹 ,List remove | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | Lv.2 | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)           | 재귀, 구현                                               | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
+| Lv.2 | [순위 검색  ](https://programmers.co.kr/learn/courses/30/lessons/72412)                | Map, 비트 연산 (부분 집합) , lower bound ,구현                 | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove                   | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                             | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                               | [코드](src/com/company/programmers/level2/할인행사.md)      |
