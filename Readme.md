@@ -72,6 +72,7 @@
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove                   | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                             | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                               | [코드](src/com/company/programmers/level2/할인행사.md)      |
+| Lv.2 | [숫자 카드 나누기](https://programmers.co.kr/learn/courses/30/lessons/135807)             | GCD, 최대 공약수 구하기                                      | [코드](src/com/company/programmers/level2/숫자카드나누기.md)   |
 | Lv.2 | [연속 부분 수열 합의 개수](https://programmers.co.kr/learn/courses/30/lessons/131701)        | 구현 , 모듈러 연산                                          | [코드](src/com/company/programmers/level2/연속부분수열.md)    |
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                              | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                           | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
