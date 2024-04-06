@@ -61,6 +61,7 @@
 | Lv.1 | [추억 점수](https://programmers.co.kr/learn/courses/30/lessons/176963)                 | HashMap , getOrDefault()                             | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                         | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
+| Lv.2 | [게임 맵 최단 거리](https://programmers.co.kr/learn/courses/30/lessons/1844)              | Queue , BFS, Arrays.fill()                           | [코드](src/com/company/programmers/level2/게임맵최단거리.md)   |
 | Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
 | Lv.2 | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)                 | 정렬    , 람다 , stream collect , String.join            | [코드](src/com/company/programmers/level2/가장큰수.md)      |
