@@ -81,6 +81,7 @@
 | Lv.2 | [호텔 대실](https://programmers.co.kr/learn/courses/30/lessons/155651)                 | 우선순위 큐, 구현                                           | [코드](src/com/company/programmers/level2/호텔대실.md)      |
 | Lv.2 | [리코챗 로봇](https://programmers.co.kr/learn/courses/30/lessons/169199)                | BFS , 구현, 큐                                          | [코드](src/com/company/programmers/level2/리코챗로봇.md)     |
 | Lv.2 | [광물 캐기](https://programmers.co.kr/learn/courses/30/lessons/172927)                 | 구현 , List sort 정렬 람다  or  브루트 포스 , 백트래킹              | [코드](src/com/company/programmers/level2/광물캐기.md)      |
+| Lv.2 | [과제 진행 하기](https://programmers.co.kr/learn/courses/30/lessons/176962)              | 구현, Stack, 2차원 배열 정렬                                 | [코드](src/com/company/programmers/level2/과제진행하기.md)    |
 | Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                  | DP                                                   | [코드](src/com/company/programmers/level3/보행자천국.md)     |
 
 
