@@ -78,6 +78,7 @@
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                           | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
 | Lv.2 | [무인도 여행](https://programmers.co.kr/learn/courses/30/lessons/154540)                | 큐 , BFS  ,  Character.getNumericValue , List 정렬      | [코드](src/com/company/programmers/level2/무인도여행.md)     |
 | Lv.2 | [호텔 대실](https://programmers.co.kr/learn/courses/30/lessons/155651)                 | 우선순위 큐, 구현                                           | [코드](src/com/company/programmers/level2/호텔대실.md)      |
+| Lv.2 | [리코챗 로봇](https://programmers.co.kr/learn/courses/30/lessons/169199)                | BFS , 구현, 큐                                          | [코드](src/com/company/programmers/level2/리코챗로봇.md)     |
 | Lv.2 | [광물 캐기](https://programmers.co.kr/learn/courses/30/lessons/172927)                 | 구현 , List sort 정렬 람다  or  브루트 포스 , 백트래킹              | [코드](src/com/company/programmers/level2/광물캐기.md)      |
 | Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                  | DP                                                   | [코드](src/com/company/programmers/level3/보행자천국.md)     |
 
