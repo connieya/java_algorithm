@@ -70,6 +70,7 @@
 | Lv.2 | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)           | 재귀, 구현                                               | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
 | Lv.2 | [순위 검색  ](https://programmers.co.kr/learn/courses/30/lessons/72412)                | Map, 비트 연산 (부분 집합) , lower bound ,구현                 | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | Lv.2 | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)              | substring  ,  Stack , list  remove                   | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
+| Lv.2 | [전력망을 둘로 나누기  ](https://programmers.co.kr/learn/courses/30/lessons/86971)          | 인접 그래프 , dfs                                         | [코드](src/com/company/programmers/level2/전력망둘로나누기.md)  |
 | Lv.2 | [주차 요금 계산 ](https://programmers.co.kr/learn/courses/30/lessons/92341)              | Math.ceil() , Comparable                             | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                               | [코드](src/com/company/programmers/level2/할인행사.md)      |
 | Lv.2 | [숫자 카드 나누기](https://programmers.co.kr/learn/courses/30/lessons/135807)             | GCD, 최대 공약수 구하기                                      | [코드](src/com/company/programmers/level2/숫자카드나누기.md)   |
