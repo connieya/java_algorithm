@@ -65,6 +65,7 @@
 | Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
 | Lv.2 | [가장 큰 수](https://programmers.co.kr/learn/courses/30/lessons/42746)                 | 정렬    , 람다 , stream collect , String.join            | [코드](src/com/company/programmers/level2/가장큰수.md)      |
+| Lv.2 | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)                | 그리디, Stack                                           | [코드](src/com/company/programmers/level2/큰수만들기.md)     |
 | Lv.2 | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)                  | DFS , 백트래킹                                           | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2 | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)                 | isDigit , next_permutation , dfs , 백트래킹 ,List remove | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | Lv.2 | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)           | 재귀, 구현                                               | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
