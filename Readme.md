@@ -2,9 +2,10 @@
 
 ## 🎃 LeetCode
 
-| #   |                                 Title                                 | Difficulty |                            Comment                             | Solution |
-|:----|:---------------------------------------------------------------------:|:----------:|:--------------------------------------------------------------:|:----|
-| 125 | [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
+| #   |                                         Title                                         |                            Difficulty                             |                            Comment                             | Solution |
+|:----|:-------------------------------------------------------------------------------------:|:-----------------------------------------------------------------:|:--------------------------------------------------------------:|:----|
+| 125 |         [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)         |                               Easy                                | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
+| 680 | [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/) |    Easy    |                         구현 , charAt()                          |[Solution](leetcode/easy/680.md)
 
 
 
