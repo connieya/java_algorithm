@@ -1,5 +1,13 @@
 # java algorithm
 
+## 🎃 LeetCode
+
+| #   |                                 Title                                 | Difficulty |                            Comment                             | Solution |
+|:----|:---------------------------------------------------------------------:|:----------:|:--------------------------------------------------------------:|:----|
+| 125 | [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/) |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
+
+
+
 ## ✨ 백준
 
 | 번호    | 문제                                                 | 코멘트                   | 코드                                          |
