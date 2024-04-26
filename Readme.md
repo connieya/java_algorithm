@@ -5,6 +5,7 @@
 | #   |                                               Title                                                | Difficulty |                            Comment                             | Solution |
 |:----|:--------------------------------------------------------------------------------------------------:|:----------:|:--------------------------------------------------------------:|:----|
 | 1   |               [ Two Sum ](https://leetcode.com/problems/group-anagrams/description/)               |    Easy    |                        Map containsKey                         |[Solution](leetcode/easy/1.md)
+| 42   |         [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)         |    Hard    |                               DP                               |[Solution](leetcode/hard/42.md)
 | 49  |           [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)            |   Medium   |   문자열 정렬 , Map getOrDefault  , Map values() , Map contains()   |[Solution](leetcode/medium/49.md)
 | 125 |               [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
 | 344 |           [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)            |    Easy    |                            문자열 swap                            |[Solution](leetcode/easy/344.md)
