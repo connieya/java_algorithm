@@ -14,5 +14,8 @@ public class Main {
             System.out.println("str =  " + str  +  " res =  " + res);
         }
 
+        String str = "ac";
+        System.out.println(str.substring(0,1));
+
     }
 }

@@ -4,15 +4,17 @@
 
 | #   |                                               Title                                                | Difficulty |                            Comment                             | Solution |
 |:----|:--------------------------------------------------------------------------------------------------:|:----------:|:--------------------------------------------------------------:|:----|
-| 49  |                [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                 |   Medium   |   문자열 정렬 , Map getOrDefault  , Map values() , Map contains()   |[Solution](leetcode/medium/49.md)
+| 1   |               [ Two Sum ](https://leetcode.com/problems/group-anagrams/description/)               |    Easy    |                        Map containsKey                         |[Solution](leetcode/easy/1.md)
+| 49  |           [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)            |   Medium   |   문자열 정렬 , Map getOrDefault  , Map values() , Map contains()   |[Solution](leetcode/medium/49.md)
 | 125 |               [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
 | 344 |           [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)            |    Easy    |                            문자열 swap                            |[Solution](leetcode/easy/344.md)
 | 541 |         [ Reverse String 2 ](https://leetcode.com/problems/reverse-string-ii/description/)         |    Easy    |                             문자열 구현                             |[Solution](leetcode/easy/541.md)
 | 680 |       [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/)        |    Easy    |                         구현 , charAt()                          |[Solution](leetcode/easy/680.md)
 | 819 |          [Most Common Word ](https://leetcode.com/problems/most-common-word/description/)          |    Easy    |        Map, toCharArray() , 정규 표현식 (\\W) & replaceAll()        |[Solution](leetcode/easy/819.md)
 | 937 | [Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/description/) |   Medium   |            Split(" ", 2) , List addAll() , toArray             |[Solution](leetcode/medium/937.md)
-Reorder Data in Log Files
 
+- 2266
+- 2273
 
 ## ✨ 백준
 
