@@ -17,5 +17,11 @@ public class Main {
         String str = "ac";
         System.out.println(str.substring(0,1));
 
+        Deque<Integer> deque = new ArrayDeque<>();
+
+        deque.add(1);
+
+        deque.pop();
+
     }
 }
