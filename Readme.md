@@ -11,6 +11,7 @@
 | 49  |                  [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                  |   Medium   |   문자열 정렬 , Map getOrDefault  , Map values() , Map contains()   |[Solution](leetcode/medium/49.md)
 | 121 | [ Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) |    Easy    |                           Array , 수학                           |[Solution](leetcode/easy/121.md)
 | 125 |                      [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                      |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
+| 225 |                      [ Implement Stack using Queues ](https://leetcode.com/problems/valid-palindrome/)                      |    Easy    |                            Stack 구현                            |[Solution](leetcode/easy/225.md)
 | 238 |    [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/description/)    |   Medium   |                             Array                              |[Solution](leetcode/medium/238.md)
 | 316 |        [ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/description/)        |   Medium   |                    Monotonic Stack + greedy                    |[Solution](leetcode/medium/316.md)
 | 344 |                  [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)                  |    Easy    |                            문자열 swap                            |[Solution](leetcode/easy/344.md)
@@ -23,7 +24,7 @@
 
 - 2266
 - 2273
-- 
+
 
 ## ✨ 백준
 
