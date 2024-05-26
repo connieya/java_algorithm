@@ -91,6 +91,7 @@
 | Lv.1 | [추억 점수](https://programmers.co.kr/learn/courses/30/lessons/176963)                 | HashMap , getOrDefault()                             | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                         | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
+| Lv.1 | [가장 많이 받은 선물](https://programmers.co.kr/learn/courses/30/lessons/258712)           | 구현                                                   | [코드](programmers/level01/가장많이받은선물.md)                 |
 | Lv.2 | [게임 맵 최단 거리](https://programmers.co.kr/learn/courses/30/lessons/1844)              | Queue , BFS, Arrays.fill()                           | [코드](src/com/company/programmers/level2/게임맵최단거리.md)   |
 | Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
@@ -107,7 +108,7 @@
 | Lv.2 | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)                 | Map 비교                                               | [코드](src/com/company/programmers/level2/할인행사.md)      |
 | Lv.2 | [숫자 카드 나누기](https://programmers.co.kr/learn/courses/30/lessons/135807)             | GCD, 최대 공약수 구하기                                      | [코드](src/com/company/programmers/level2/숫자카드나누기.md)   |
 | Lv.2 | [연속 부분 수열 합의 개수](https://programmers.co.kr/learn/courses/30/lessons/131701)        | 구현 , 모듈러 연산                                          | [코드](src/com/company/programmers/level2/연속부분수열.md)    |
-| Lv.2 | [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/138476)                 | HashMap ,정렬                                          | [코드](progammers/level02/귤고르기.md)                      |
+| Lv.2 | [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/138476)                 | HashMap ,정렬                                          | [코드](programmers/level02/귤고르기.md)                     |
 | Lv.2 | [디펜스 게임](https://programmers.co.kr/learn/courses/30/lessons/142085)                | 우선순위큐 , 구현                                           | [코드](src/com/company/programmers/level2/디펜스게임.md)     |
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                              | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                           | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
