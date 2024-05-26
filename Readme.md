@@ -60,6 +60,7 @@
 | Lv.0 | [외계어 사전 ](https://programmers.co.kr/learn/courses/30/lessons/120869)               | HashMap , getOrDefault()                             | [코드](src/com/company/programmers/level0/외계어사전.md)     |
 | Lv.0 | [숫자 찾기](https://programmers.co.kr/learn/courses/30/lessons/120904)                 | 자리수 계산, 문자열 , String.valueOf , indexOf               | [코드](src/com/company/programmers/level0/숫자찾기.md)      |
 | Lv.0 | [n의 배수 구하기](https://programmers.co.kr/learn/courses/30/lessons/120905)             | Arrays.stream , ArrayList                            | [코드](src/com/company/programmers/level0/배수고르기.md)     |
+| Lv.0 | [옹알이 (1)](https://programmers.co.kr/learn/courses/30/lessons/120956)               | replaceAll                                           | [코드](programmers/level00/옹알이1.md)                     |
 | Lv.0 | [세균 증식](https://programmers.co.kr/learn/courses/30/lessons/120910)                 | 비트 연산자                                               | [코드](src/com/company/programmers/level0/세균증식.md)      |
 | Lv.0 | [문자열 정렬하기(2)](https://programmers.co.kr/learn/courses/30/lessons/120911)           | Arrays.sort() , toLowerCase() ,toCharArray()         | [코드](src/com/company/programmers/level0/문자열정렬하기.md)   |
 | Lv.0 | [정사각형으로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181830)            | 배열   , Math max                                      | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
