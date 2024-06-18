@@ -37,6 +37,7 @@
 | 1717  | [집합의 표현](https://www.acmicpc.net/problem/1717)     | Union & Find , 서로소 집합 | [코드](src/com/company/boj/gold05/1717.md)    |
 | 2606  | [바이러스](https://www.acmicpc.net/problem/2606)       | Union & Find          | [코드](src/com/company/boj/silver03/2606.md)  |
 | 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | 그래프 탐색 , DFS          | [코드](src/com/company/boj/silver02/11725.md) |
+| 15649 | [N 과 M (1)](https://www.acmicpc.net/problem/15649) | 백트래킹                  | [코드](boj/silver3/15649.md)                  |
 
 ## 👻 프로그래머스
 
