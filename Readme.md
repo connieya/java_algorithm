@@ -115,6 +115,7 @@
 | Lv.2 | [연속 부분 수열 합의 개수](https://programmers.co.kr/learn/courses/30/lessons/131701)        | 구현 , 모듈러 연산                                                 | [코드](src/com/company/programmers/level2/연속부분수열.md)    |
 | Lv.2 | [귤 고르기](https://programmers.co.kr/learn/courses/30/lessons/138476)                 | HashMap ,정렬                                                 | [코드](programmers/level02/귤고르기.md)                     |
 | Lv.2 | [디펜스 게임](https://programmers.co.kr/learn/courses/30/lessons/142085)                | 우선순위큐 , 구현                                                  | [코드](src/com/company/programmers/level2/디펜스게임.md)     |
+| Lv.2 | [이모티콘 할인행사](https://programmers.co.kr/learn/courses/30/lessons/150368)             | 완전탐색, 백트래킹                                                  | [코드](programmers/level02/이모티콘할인행사.md)                 |
 | Lv.2 | [숫자 변환하기](https://programmers.co.kr/learn/courses/30/lessons/154538)               | 큐 , BFS                                                     | [코드](src/com/company/programmers/level2/숫자변환하기.md)    |
 | Lv.2 | [뒤에 있는 큰 수 찾기](https://programmers.co.kr/learn/courses/30/lessons/154539)          | Stack , 구현                                                  | [코드](src/com/company/programmers/level2/뒤에있는큰수.md)    |
 | Lv.2 | [무인도 여행](https://programmers.co.kr/learn/courses/30/lessons/154540)                | 큐 , BFS  ,  Character.getNumericValue , List 정렬             | [코드](src/com/company/programmers/level2/무인도여행.md)     |
