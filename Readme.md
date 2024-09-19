@@ -2,33 +2,33 @@
 
 ## 🎃 LeetCode
 
-| #   |                                                      Title                                                      | Difficulty |                            Comment                             | Solution |
-|:----|:---------------------------------------------------------------------------------------------------------------:|:----------:|:--------------------------------------------------------------:|:----|
-| 1   |                         [ Two Sum ](https://leetcode.com/problems/tow-sum/description/)                         |    Easy    |                        Map containsKey                         |[Solution](leetcode/easy/1.md)
-| 15  |                            [ 3Sum ](https://leetcode.com/problems/3sum/description/)                            |   Medium   |                          투포인터, 이진 탐색                           |[Solution](leetcode/medium/15.md)
-| 20  |               [ Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/)               |    Easy    |                            Deque 스택                            |[Solution](leetcode/easy/20.md)
-| 23  |             [ Merge k Sorted Lists ](https://leetcode.com/problems/merge-k-sorted-lists/description/)              |    Hard    |                             우선순위 큐                             |[Solution](leetcode/hard/23.md)
-| 42  |             [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)             |    Hard    |                               DP                               |[Solution](leetcode/hard/42.md)
-| 49  |                  [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                  |   Medium   |   문자열 정렬 , Map getOrDefault  , Map values() , Map contains()   |[Solution](leetcode/medium/49.md)
-| 121 | [ Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) |    Easy    |                           Array , 수학                           |[Solution](leetcode/easy/121.md)
-| 125 |                      [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                      |    Easy    | Character.isLetter , Character.isDigit , StringBuilder reverse |[Solution](leetcode/easy/125.md)
-| 225 |                [ Implement Stack using Queues ](https://leetcode.com/problems/valid-palindrome/)                |    Easy    |                            Stack 구현                            |[Solution](leetcode/easy/225.md)
-| 232 |    [ Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/description/)    |    Easy    |                        Stack으로 Queue 구현                        |[Solution](leetcode/easy/232.md)
-| 238 |    [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/description/)    |   Medium   |                             Array                              |[Solution](leetcode/medium/238.md)
-| 316 |        [ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/description/)        |   Medium   |                    Monotonic Stack + greedy                    |[Solution](leetcode/medium/316.md)
-| 344 |                  [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)                  |    Easy    |                            문자열 swap                            |[Solution](leetcode/easy/344.md)
-| 541 |               [ Reverse String 2 ](https://leetcode.com/problems/reverse-string-ii/description/)                |    Easy    |                             문자열 구현                             |[Solution](leetcode/easy/541.md)
-| 561 |                 [Array Partition ](https://leetcode.com/problems/array-partition/description/)                  |    Easy    |                               정렬                               |[Solution](leetcode/easy/561.md)
-| 622 |           [Design Circular Queue ](https://leetcode.com/problems/design-circular-queue/description/)            |   Medium   |                            원형 큐 구현                             |[Solution](leetcode/medium/622.md)
-| 622 |           [Design Circular Deque ](https://leetcode.com/problems/design-circular-deque/description/)            |   Medium   |                            원형 데크 구현                            |[Solution](leetcode/medium/641.md)
-| 680 |              [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/)              |    Easy    |                         구현 , charAt()                          |[Solution](leetcode/easy/680.md)
-| 739 |              [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/description/)               |   Medium   |                        Monotonic Stack                         |[Solution](leetcode/medium/739.md)
-| 819 |                [Most Common Word ](https://leetcode.com/problems/most-common-word/description/)                 |    Easy    |        Map, toCharArray() , 정규 표현식 (\\W) & replaceAll()        |[Solution](leetcode/easy/819.md)
-| 937 |       [Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/description/)        |   Medium   |            Split(" ", 2) , List addAll() , toArray             |[Solution](leetcode/medium/937.md)
+| #   |                                                      Title                                                      | Difficulty | Solution                             |
+|:----|:---------------------------------------------------------------------------------------------------------------:|:-----------|:-------------------------------------|
+| 1   |                         [ Two Sum ](https://leetcode.com/problems/tow-sum/description/)                         | Easy       | [Solution](leetcode/easy/1.md)       
+| 15  |                            [ 3Sum ](https://leetcode.com/problems/3sum/description/)                            | Medium     | [Solution](leetcode/medium/15.md)    
+| 20  |               [ Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/)               | Easy       | [Solution](leetcode/easy/20.md)      
+| 23  |            [ Merge k Sorted Lists ](https://leetcode.com/problems/merge-k-sorted-lists/description/)            | Hard       | [Solution](leetcode/hard/23.md)      
+| 42  |             [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)             | Hard       | [Solution](leetcode/hard/42.md)      
+| 49  |                  [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                  | Medium     | [Solution](leetcode/medium/49.md)    
+| 121 | [ Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy       | [Solution](leetcode/easy/121.md)     
+| 125 |                      [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                      | Easy       | [Solution](leetcode/easy/125.md)     
+| 225 |                [ Implement Stack using Queues ](https://leetcode.com/problems/valid-palindrome/)                | Easy       | [Solution](leetcode/easy/225.md)     
+| 232 |    [ Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/description/)    | Easy       | [Solution](leetcode/easy/232.md)     
+| 238 |    [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/description/)    | Medium     | [Solution](leetcode/medium/238.md)   
+| 316 |        [ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/description/)        | Medium     | [Solution](leetcode/medium/316.md)   
+| 344 |                  [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)                  | Easy       | [Solution](leetcode/easy/344.md)     
+| 541 |               [ Reverse String 2 ](https://leetcode.com/problems/reverse-string-ii/description/)                | Easy       | [Solution](leetcode/easy/541.md)     
+| 561 |                 [Array Partition ](https://leetcode.com/problems/array-partition/description/)                  | Easy       | [Solution](leetcode/easy/561.md)     
+| 622 |           [Design Circular Queue ](https://leetcode.com/problems/design-circular-queue/description/)            | Medium     | [Solution](leetcode/medium/622.md)   
+| 622 |           [Design Circular Deque ](https://leetcode.com/problems/design-circular-deque/description/)            | Medium     | [Solution](leetcode/medium/641.md)   
+| 680 |              [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/)              | Easy       | [Solution](leetcode/easy/680.md)   Ï 
+| 739 |              [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/description/)               | Medium     | [Solution](leetcode/medium/739.md)   
+| 819 |                [Most Common Word ](https://leetcode.com/problems/most-common-word/description/)                 | Easy       | [Solution](leetcode/easy/819.md)     
+| 937 |       [Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/description/)        | Medium     | [Solution](leetcode/medium/937.md)   
+| 937 |            [K Closest Points to Origin ](https://leetcode.com/problems/k-closest-points-to-origin/)             | Medium     | [Solution](leetcode/medium/973.md)   
 
 - 2266
 - 2273
-
 
 ## ✨ 백준
 
@@ -124,9 +124,6 @@
 | Lv.2 | [광물 캐기](https://programmers.co.kr/learn/courses/30/lessons/172927)                 | 구현 , List sort 정렬 람다  or  브루트 포스 , 백트래킹                     | [코드](src/com/company/programmers/level2/광물캐기.md)      |
 | Lv.2 | [과제 진행 하기](https://programmers.co.kr/learn/courses/30/lessons/176962)              | 구현, Stack, 2차원 배열 정렬                                        | [코드](src/com/company/programmers/level2/과제진행하기.md)    |
 | Lv.3 | [보행자 천국](https://programmers.co.kr/learn/courses/30/lessons/1832)                  | DP                                                          | [코드](src/com/company/programmers/level3/보행자천국.md)     |
-
-
-
 
 - [동빈북](src/com/company/dongbinbook/동빈북.md)
 - [참고](src/com/company/good/read.md)
