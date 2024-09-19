@@ -2,30 +2,30 @@
 
 ## 🎃 LeetCode
 
-| #   |                                                      Title                                                      | Difficulty | Solution                             |
-|:----|:---------------------------------------------------------------------------------------------------------------:|:-----------|:-------------------------------------|
-| 1   |                         [ Two Sum ](https://leetcode.com/problems/tow-sum/description/)                         | Easy       | [Solution](leetcode/easy/1.md)       
-| 15  |                            [ 3Sum ](https://leetcode.com/problems/3sum/description/)                            | Medium     | [Solution](leetcode/medium/15.md)    
-| 20  |               [ Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/)               | Easy       | [Solution](leetcode/easy/20.md)      
-| 23  |            [ Merge k Sorted Lists ](https://leetcode.com/problems/merge-k-sorted-lists/description/)            | Hard       | [Solution](leetcode/hard/23.md)      
-| 42  |             [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)             | Hard       | [Solution](leetcode/hard/42.md)      
-| 49  |                  [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                  | Medium     | [Solution](leetcode/medium/49.md)    
-| 121 | [ Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy       | [Solution](leetcode/easy/121.md)     
-| 125 |                      [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                      | Easy       | [Solution](leetcode/easy/125.md)     
-| 225 |                [ Implement Stack using Queues ](https://leetcode.com/problems/valid-palindrome/)                | Easy       | [Solution](leetcode/easy/225.md)     
-| 232 |    [ Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/description/)    | Easy       | [Solution](leetcode/easy/232.md)     
-| 238 |    [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/description/)    | Medium     | [Solution](leetcode/medium/238.md)   
-| 316 |        [ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/description/)        | Medium     | [Solution](leetcode/medium/316.md)   
-| 344 |                  [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)                  | Easy       | [Solution](leetcode/easy/344.md)     
-| 541 |               [ Reverse String 2 ](https://leetcode.com/problems/reverse-string-ii/description/)                | Easy       | [Solution](leetcode/easy/541.md)     
-| 561 |                 [Array Partition ](https://leetcode.com/problems/array-partition/description/)                  | Easy       | [Solution](leetcode/easy/561.md)     
-| 622 |           [Design Circular Queue ](https://leetcode.com/problems/design-circular-queue/description/)            | Medium     | [Solution](leetcode/medium/622.md)   
-| 622 |           [Design Circular Deque ](https://leetcode.com/problems/design-circular-deque/description/)            | Medium     | [Solution](leetcode/medium/641.md)   
-| 680 |              [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/)              | Easy       | [Solution](leetcode/easy/680.md)   Ï 
-| 739 |              [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/description/)               | Medium     | [Solution](leetcode/medium/739.md)   
-| 819 |                [Most Common Word ](https://leetcode.com/problems/most-common-word/description/)                 | Easy       | [Solution](leetcode/easy/819.md)     
-| 937 |       [Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/description/)        | Medium     | [Solution](leetcode/medium/937.md)   
-| 937 |            [K Closest Points to Origin ](https://leetcode.com/problems/k-closest-points-to-origin/)             | Medium     | [Solution](leetcode/medium/973.md)   
+| #   |                                                      Title                                                      | Difficulty | Solution                           |
+|:----|:---------------------------------------------------------------------------------------------------------------:|:-----------|:-----------------------------------|
+| 1   |                         [ Two Sum ](https://leetcode.com/problems/tow-sum/description/)                         | Easy       | [Solution](leetcode/easy/1.md)     
+| 15  |                            [ 3Sum ](https://leetcode.com/problems/3sum/description/)                            | Medium     | [Solution](leetcode/medium/15.md)  
+| 20  |               [ Valid Parentheses ](https://leetcode.com/problems/valid-parentheses/description/)               | Easy       | [Solution](leetcode/easy/20.md)    
+| 23  |            [ Merge k Sorted Lists ](https://leetcode.com/problems/merge-k-sorted-lists/description/)            | Hard       | [Solution](leetcode/hard/23.md)    
+| 42  |             [ Trapping Rain Water ](https://leetcode.com/problems/trapping-rain-water/description/)             | Hard       | [Solution](leetcode/hard/42.md)    
+| 49  |                  [ Group Anagrams ](https://leetcode.com/problems/group-anagrams/description/)                  | Medium     | [Solution](leetcode/medium/49.md)  
+| 121 | [ Best Time to Buy and Sell Stock ](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/description/) | Easy       | [Solution](leetcode/easy/121.md)   
+| 125 |                      [ Valid Palindrome ](https://leetcode.com/problems/valid-palindrome/)                      | Easy       | [Solution](leetcode/easy/125.md)   
+| 225 |                [ Implement Stack using Queues ](https://leetcode.com/problems/valid-palindrome/)                | Easy       | [Solution](leetcode/easy/225.md)   
+| 232 |    [ Implement Queue using Stacks ](https://leetcode.com/problems/implement-queue-using-stacks/description/)    | Easy       | [Solution](leetcode/easy/232.md)   
+| 238 |    [ Product of Array Except Self ](https://leetcode.com/problems/product-of-array-except-self/description/)    | Medium     | [Solution](leetcode/medium/238.md) 
+| 316 |        [ Remove Duplicate Letters ](https://leetcode.com/problems/remove-duplicate-letters/description/)        | Medium     | [Solution](leetcode/medium/316.md) 
+| 344 |                  [ Reverse String ](https://leetcode.com/problems/reverse-string/description/)                  | Easy       | [Solution](leetcode/easy/344.md)   
+| 541 |               [ Reverse String 2 ](https://leetcode.com/problems/reverse-string-ii/description/)                | Easy       | [Solution](leetcode/easy/541.md)   
+| 561 |                 [Array Partition ](https://leetcode.com/problems/array-partition/description/)                  | Easy       | [Solution](leetcode/easy/561.md)   
+| 622 |           [Design Circular Queue ](https://leetcode.com/problems/design-circular-queue/description/)            | Medium     | [Solution](leetcode/medium/622.md) 
+| 622 |           [Design Circular Deque ](https://leetcode.com/problems/design-circular-deque/description/)            | Medium     | [Solution](leetcode/medium/641.md) 
+| 680 |              [Valid Palindrome 2 ](https://leetcode.com/problems/valid-palindrome-ii/description/)              | Easy       | [Solution](leetcode/easy/680.md)   
+| 739 |              [Daily Temperatures ](https://leetcode.com/problems/daily-temperatures/description/)               | Medium     | [Solution](leetcode/medium/739.md) 
+| 819 |                [Most Common Word ](https://leetcode.com/problems/most-common-word/description/)                 | Easy       | [Solution](leetcode/easy/819.md)   
+| 937 |       [Reorder Data in Log Files ](https://leetcode.com/problems/reorder-data-in-log-files/description/)        | Medium     | [Solution](leetcode/medium/937.md) 
+| 937 |            [K Closest Points to Origin ](https://leetcode.com/problems/k-closest-points-to-origin/)             | Medium     | [Solution](leetcode/medium/973.md) 
 
 - 2266
 - 2273
@@ -42,8 +42,8 @@
 
 ## 👻 프로그래머스
 
-| 레벨   | 문제                                                                                 | 코멘트                                                         | 코드                                                    |
-  |:-----|:-----------------------------------------------------------------------------------|:------------------------------------------------------------|:------------------------------------------------------
+| 레벨   | 문제                                                                                             | 코드                                                    |
+  |:-----|:--------------------------------------------------------------------------------------|:------------------------------------------------------
 | Lv.0 | [중복된 숫자 개수](https://programmers.co.kr/learn/courses/30/lessons/120583)             | 반복문                                                         | [코드](src/com/company/programmers/level0/중복된숫자.md)     |
 | Lv.0 | [두수의 차](https://programmers.co.kr/learn/courses/30/lessons/120803)                 | 사칙연산                                                        | [코드](src/com/company/programmers/level0/두수의차.md)      |
 | Lv.0 | [두수의 나눗셈](https://programmers.co.kr/learn/courses/30/lessons/120806)               | 사칙연산                                                        | [코드](src/com/company/programmers/level0/두수의나눗셈.md)    |
@@ -97,6 +97,7 @@
 | Lv.1 | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)                | HashMap 자료구조                                                | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1 | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)                | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort                   | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.1 | [가장 많이 받은 선물](https://programmers.co.kr/learn/courses/30/lessons/258712)           | 구현                                                          | [코드](programmers/level01/가장많이받은선물.md)                 |
+| Lv.1 | 지폐 접기                                                                                                                                    | [코드](programmers/level01/지폐접기.md)                           |
 | Lv.2 | [게임 맵 최단 거리](https://programmers.co.kr/learn/courses/30/lessons/1844)              | Queue , BFS, Arrays.fill()                                  | [코드](src/com/company/programmers/level2/게임맵최단거리.md)   |
 | Lv.2 | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)                   | 스택, 구현                                                      | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2 | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)                  | 큐 , List ,  구현                                              | [코드](src/com/company/programmers/level2/기능개발.md)      |
