@@ -56,6 +56,8 @@
 | 120823 | 직각 삼각형 출력하기                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/직각삼각형.md)     |
 | 120825 | 문자 반복 출력하기                                                                   | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자반복출력하기.md)  |
 | 120833  | 배열 자르기                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/배열자르기.md)     |
+| 120834   | 외계행성의 나이      | Lv.0                                                 | [코드](src/com/company/programmers/level0/외계행성의나이.md)   |
+| 120835  | 진료순서 정하기       | Lv.0                                                 | [코드](src/com/company/programmers/level0/진료순서정하기.md)   |
 | 120852 | 소인수분해                                                                        | Lv.0                                                 | [코드](programmers/level00/소인수분해.md)                    |
 | 120869 | 외계어 사전                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/외계어사전.md)     |
 | 120888 | 중복된 문자 제거                                                                    | Lv.0                                                 | [코드](programmers/level00/중복된문자제거.md)                  |
@@ -66,8 +68,6 @@
 | 120956 | 옹알이 (1)                                                                      | Lv.0                                                 | [코드](programmers/level00/옹알이1.md)                     |
 | 181851 | 전국 대회 선발 고사                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/전국대회선발고사.md)  |
 | 181855 | 문자열 묶기                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열묶기.md)     |
-| Lv.0   | [외계행성의 나이](https://programmers.co.kr/learn/courses/30/lessons/120834)        | hashmap , 아스키코드                                      | [코드](src/com/company/programmers/level0/외계행성의나이.md)   |
-| Lv.0   | [진료 순서 정하기](https://programmers.co.kr/learn/courses/30/lessons/120835)       | 이중 for 문                                             | [코드](src/com/company/programmers/level0/진료순서정하기.md)   |
 | Lv.0   | [배열 원소의 길이](https://programmers.co.kr/learn/courses/30/lessons/120854)       | 배열의 길이                                               | [코드](src/com/company/programmers/level0/배열원소의길이.md)   |
 | Lv.0   | [정사각형으로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181830)      | 배열   , Math max                                      | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
 | Lv.0   | [뒤에서 5등 위로 ](https://programmers.co.kr/learn/courses/30/lessons/181852)      | Arrays.sort() , Arrays.copyOfRange                   | [코드](src/com/company/programmers/level0/뒤에서5등위로.md)   |
