@@ -55,10 +55,11 @@
 | 120818 | 옷가게 할인 받기                                                                    | Lv.0                                                 | [코드](src/com/company/programmers/level0/옷가게할인.md)     |
 | 120823 | 직각 삼각형 출력하기                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/직각삼각형.md)     |
 | 120825 | 문자 반복 출력하기                                                                   | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자반복출력하기.md)  |
-| 120833  | 배열 자르기                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/배열자르기.md)     |
-| 120834   | 외계행성의 나이      | Lv.0                                                 | [코드](src/com/company/programmers/level0/외계행성의나이.md)   |
-| 120835  | 진료순서 정하기       | Lv.0                                                 | [코드](src/com/company/programmers/level0/진료순서정하기.md)   |
+| 120833 | 배열 자르기                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/배열자르기.md)     |
+| 120834 | 외계행성의 나이                                                                     | Lv.0                                                 | [코드](src/com/company/programmers/level0/외계행성의나이.md)   |
+| 120835 | 진료순서 정하기                                                                     | Lv.0                                                 | [코드](src/com/company/programmers/level0/진료순서정하기.md)   |
 | 120852 | 소인수분해                                                                        | Lv.0                                                 | [코드](programmers/level00/소인수분해.md)                    |
+| 120854 | 배열 원소의 길이                                                                    | Lv.0                                                 | [코드](src/com/company/programmers/level0/배열원소의길이.md)   |
 | 120869 | 외계어 사전                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/외계어사전.md)     |
 | 120888 | 중복된 문자 제거                                                                    | Lv.0                                                 | [코드](programmers/level00/중복된문자제거.md)                  |
 | 120904 | 숫자 찾기                                                                        | Lv.0                                                 | [코드](src/com/company/programmers/level0/숫자찾기.md)      |
@@ -66,13 +67,14 @@
 | 120910 | 세균 증식                                                                        | Lv.0                                                 | [코드](src/com/company/programmers/level0/세균증식.md)      |
 | 120911 | 문자열 정렬하기(2)                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열정렬하기.md)   |
 | 120956 | 옹알이 (1)                                                                      | Lv.0                                                 | [코드](programmers/level00/옹알이1.md)                     |
+| 181830 | 정사각형으로 만들기                                                                   | Lv.0                                                 | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
+| 181849 | 문자열 정수의 합                                                                    | Lv.0                                                 | [코드](programmers/level00/문자열정수의합.md)                  |
 | 181851 | 전국 대회 선발 고사                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/전국대회선발고사.md)  |
+| 181852 | 뒤에서 5등 위로                                                                    | Lv.0                                                 | [코드](src/com/company/programmers/level0/뒤에서5등위로.md)   |
 | 181855 | 문자열 묶기                                                                       | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열묶기.md)     |
-| Lv.0   | [배열 원소의 길이](https://programmers.co.kr/learn/courses/30/lessons/120854)       | 배열의 길이                                               | [코드](src/com/company/programmers/level0/배열원소의길이.md)   |
-| Lv.0   | [정사각형으로 만들기](https://programmers.co.kr/learn/courses/30/lessons/181830)      | 배열   , Math max                                      | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
-| Lv.0   | [뒤에서 5등 위로 ](https://programmers.co.kr/learn/courses/30/lessons/181852)      | Arrays.sort() , Arrays.copyOfRange                   | [코드](src/com/company/programmers/level0/뒤에서5등위로.md)   |
 | 181857 | 배열의 길이를 2의 거듭제곱으로 만들기                                                        | Lv.0                                                 | [코드](src/com/company/programmers/level0/배열길이2의거듭.md)  |
 | 181862 | 세 개의 구분자                                                                     | Lv.0                                                 | [코드](programmers/level00/세개의구분자.md)                   |
+| 181867 | x 사이의 개수                                                                     | Lv.0                                                 | [코드](programmers/level00/x사이의개수.md)                   |
 | 181871 | 문자열이 몇 번 등장하는지 세기                                                            | Lv.0                                                 | [코드](programmers/level00/문자열몇번.md)                    |
 | Lv.0   | [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940)         | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 | 250126 | PCCE 기출문제 / 창고 정리                                                            | Lv.0                                                 | [코드](programmers/level00/창고정리.md)                     |
