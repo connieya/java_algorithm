@@ -67,6 +67,7 @@
 | 120910 | 세균 증식                                                                        | Lv.0                                                 | [코드](src/com/company/programmers/level0/세균증식.md)      |
 | 120911 | 문자열 정렬하기(2)                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열정렬하기.md)   |
 | 120956 | 옹알이 (1)                                                                      | Lv.0                                                 | [코드](programmers/level00/옹알이1.md)                     |
+| 135808 | 과일 장수                                                                        | Lv.1                                                 | [코드](src/com/company/programmers/level1/과일장수.md)      |
 | 181830 | 정사각형으로 만들기                                                                   | Lv.0                                                 | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
 | 181849 | 문자열 정수의 합                                                                    | Lv.0                                                 | [코드](programmers/level00/문자열정수의합.md)                  |
 | 181851 | 전국 대회 선발 고사                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/전국대회선발고사.md)  |
@@ -76,7 +77,11 @@
 | 181862 | 세 개의 구분자                                                                     | Lv.0                                                 | [코드](programmers/level00/세개의구분자.md)                   |
 | 181867 | x 사이의 개수                                                                     | Lv.0                                                 | [코드](programmers/level00/x사이의개수.md)                   |
 | 181871 | 문자열이 몇 번 등장하는지 세기                                                            | Lv.0                                                 | [코드](programmers/level00/문자열몇번.md)                    |
-| Lv.0   | [문자열 곱하기](https://programmers.co.kr/learn/courses/30/lessons/181940)         | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
+| 181872 | 특정 문자열로 끝나는 가장 긴 부분 문자열 찾기                                                   | Lv.0                                                 | [코드](programmers/level00/특정문자열.md)                    |
+| 181906 | 접두사인지 확인하기                                                                   | Lv.0                                                 | [코드](programmers/level00/접두사인지확인하기.md)                |
+| 181908 | 접미사인지 확인하기                                                                   | Lv.0                                                 | [코드](programmers/level00/접미사인지확인하기.md)                |
+| 181909 | 접미사 배열                                                                       | Lv.0                                                 | [코드](programmers/level00/접미사배열.md)                    |
+| 181940  | 문자열 곱하기                                                                      | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 | 250126 | PCCE 기출문제 / 창고 정리                                                            | Lv.0                                                 | [코드](programmers/level00/창고정리.md)                     |
 | Lv.1   | [문자열 내 마음대로 정렬하기 ](https://programmers.co.kr/learn/courses/30/lessons/12915) | 구현 센스 , Comparator 람다                                | [코드](src/com/company/programmers/level1/문자열마음대로정렬.md) |
 | Lv.1   | [소수 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/12921)           | 에라토스테네스의 체                                           | [코드](src/com/company/programmers/level1/소수찾기.md)      |
@@ -87,7 +92,6 @@
 | Lv.1   | [옹알이(2) ](https://programmers.co.kr/learn/courses/30/lessons/133499)         | List Contains , 문자열 구현  ,replace                     | [코드](src/com/company/programmers/level1/옹알이(2).md)    |
 | Lv.1   | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)        | ArrayList , remove   , 배열 ,구현                        | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
 | Lv.1   | [푸드 파이트 대회 ](https://programmers.co.kr/learn/courses/30/lessons/134240)      | StringBuilder reverse , repeat                       | [코드](src/com/company/programmers/level1/푸드파이트대회.md)   |
-| 135808 | 과일 장수                                                                        | Lv.1                                                 | [코드](src/com/company/programmers/level1/과일장수.md)      |
 | Lv.1   | [기사단원의 무기 ](https://programmers.co.kr/learn/courses/30/lessons/136798)       | 약수 구하기, 구현                                           | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
 | Lv.1   | [문자열 나누기 ](https://programmers.co.kr/learn/courses/30/lessons/140108)        | 문자열 구현                                               | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1   | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)   | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
