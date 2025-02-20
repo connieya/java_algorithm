@@ -44,6 +44,9 @@
 
 | #      | 문제                                                                           | 레벨                                                   | 코드                                                    |
   |:-------|:-----------------------------------------------------------------------------|------------------------------------------------------|:------------------------------------------------------
+| 12903  | 가운데 글자 가져오기                                                                  | Lv.1                                                 | [코드](programmers/level01/가운데글자가져오기.md)                |
+| 12906  | 같은 숫자는 싫어                                                                    | Lv.1                                                 | [코드](programmers/level01/같은숫자는싫어.md)                  |
+| 12954  | x만큼 간격이 있는 n개의 숫자                                                            | Lv.1                                                 | [코드](programmers/level01/x만큼간격.md)                    |
 | 42746  | 가장 큰 수                                                                       | Lv.2                                                 | [코드](src/com/company/programmers/level2/가장큰수.md)      |
 | 68644  | 두 개 뽑아서 더하기                                                                  | Lv.1                                                 | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | 120583 | 중복된 숫자 개수                                                                    | Lv.0                                                 | [코드](programmers/level00/중복된숫자.md)                    
@@ -81,7 +84,7 @@
 | 181906 | 접두사인지 확인하기                                                                   | Lv.0                                                 | [코드](programmers/level00/접두사인지확인하기.md)                |
 | 181908 | 접미사인지 확인하기                                                                   | Lv.0                                                 | [코드](programmers/level00/접미사인지확인하기.md)                |
 | 181909 | 접미사 배열                                                                       | Lv.0                                                 | [코드](programmers/level00/접미사배열.md)                    |
-| 181940  | 문자열 곱하기                                                                      | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
+| 181940 | 문자열 곱하기                                                                      | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 | 250126 | PCCE 기출문제 / 창고 정리                                                            | Lv.0                                                 | [코드](programmers/level00/창고정리.md)                     |
 | Lv.1   | [문자열 내 마음대로 정렬하기 ](https://programmers.co.kr/learn/courses/30/lessons/12915) | 구현 센스 , Comparator 람다                                | [코드](src/com/company/programmers/level1/문자열마음대로정렬.md) |
 | Lv.1   | [소수 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/12921)           | 에라토스테네스의 체                                           | [코드](src/com/company/programmers/level1/소수찾기.md)      |
@@ -104,7 +107,7 @@
 | Lv.1   | [달리기 경주](https://programmers.co.kr/learn/courses/30/lessons/178871)          | HashMap 자료구조                                         | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | Lv.1   | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)          | HashMap , 2차원 배열 정렬 , Stream, Arrays.sort            | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.1   | [가장 많이 받은 선물](https://programmers.co.kr/learn/courses/30/lessons/258712)     | 구현                                                   | [코드](programmers/level01/가장많이받은선물.md)                 |
-| 340199 | 지폐 접기                                                                        | Lv.1                                                 | [코드](programmers/level01/지폐접기.md)                     |
+| 340199 | [PCCE 기출문제 9번 ]지폐 접기                                                         | Lv.1                                                 | [코드](programmers/level01/지폐접기.md)                     |
 | Lv.2   | [게임 맵 최단 거리](https://programmers.co.kr/learn/courses/30/lessons/1844)        | Queue , BFS, Arrays.fill()                           | [코드](src/com/company/programmers/level2/게임맵최단거리.md)   |
 | Lv.2   | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)             | 스택, 구현                                               | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2   | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)            | 큐 , List ,  구현                                       | [코드](src/com/company/programmers/level2/기능개발.md)      |
