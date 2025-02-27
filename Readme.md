@@ -70,8 +70,10 @@
 | 120910 | 세균 증식                                                                        | Lv.0                                                 | [코드](src/com/company/programmers/level0/세균증식.md)      |
 | 120911 | 문자열 정렬하기(2)                                                                  | Lv.0                                                 | [코드](src/com/company/programmers/level0/문자열정렬하기.md)   |
 | 120956 | 옹알이 (1)                                                                      | Lv.0                                                 | [코드](programmers/level00/옹알이1.md)                     |
+| 131705 | 삼총사                                                                          | Lv.1                                                 | [코드](programmers/level01/삼총사.md)                      |
 | 134240 | 푸드 파이트 대회                                                                    | Lv.1                                                 | [코드](src/com/company/programmers/level1/푸드파이트대회.md)   |
 | 135808 | 과일 장수                                                                        | Lv.1                                                 | [코드](src/com/company/programmers/level1/과일장수.md)      |
+| 136798 | 기사단원의 무기                                                                     | Lv.1                                                 | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
 | 138477 | 명예의 전당 (1)                                                                   | Lv.1                                                 | [코드](programmers/level01/명예의전당1.md)                   |
 | 181830 | 정사각형으로 만들기                                                                   | Lv.0                                                 | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
 | 181849 | 문자열 정수의 합                                                                    | Lv.0                                                 | [코드](programmers/level00/문자열정수의합.md)                  |
@@ -96,7 +98,6 @@
 | Lv.1   | [숫자 짝꿍 ](https://programmers.co.kr/learn/courses/30/lessons/131128)          | 배열 LookUp 테이블 , 문자열 -> 숫자 , 숫자 -> 문자열 변환 , repeat    | [코드](src/com/company/programmers/level1/숫자짝꿍.md)      |
 | Lv.1   | [옹알이(2) ](https://programmers.co.kr/learn/courses/30/lessons/133499)         | List Contains , 문자열 구현  ,replace                     | [코드](src/com/company/programmers/level1/옹알이(2).md)    |
 | Lv.1   | [햄버거 만들기 ](https://programmers.co.kr/learn/courses/30/lessons/133502)        | ArrayList , remove   , 배열 ,구현                        | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
-| Lv.1   | [기사단원의 무기 ](https://programmers.co.kr/learn/courses/30/lessons/136798)       | 약수 구하기, 구현                                           | [코드](src/com/company/programmers/level1/기사단원의무기.md)   |
 | Lv.1   | [문자열 나누기 ](https://programmers.co.kr/learn/courses/30/lessons/140108)        | 문자열 구현                                               | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1   | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)   | 구현 , 날짜 계산                                           | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1   | [둘만의 암호](https://programmers.co.kr/learn/courses/30/lessons/155652)          | 구현 ,아스키 코드                                           | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
