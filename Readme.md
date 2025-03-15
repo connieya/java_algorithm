@@ -50,6 +50,7 @@
 | 42746  | 가장 큰 수                                                                       | Lv.2 | [코드](src/com/company/programmers/level2/가장큰수.md)      |
 | 68644  | 두 개 뽑아서 더하기                                                                  | Lv.1 | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | 70128  | 내적                                                                           | Lv.1 | [코드](src/com/company/programmers/level1/내적.md)        |
+| 76501  | 음양 더하기                                                                       | Lv.1 | [코드](programmers/level01/음양더하기.md)                    |
 | 87389  | 나머지가 1이 되는 수 찾기                                                              | Lv.1 | [코드](programmers/level01/나머지가1이되는.md)                 |
 | 120583 | 중복된 숫자 개수                                                                    | Lv.0 | [코드](programmers/level00/중복된숫자.md)                    
 | 120803 | 두수의 차                                                                        | Lv.0 | [코드](programmers/level00/두수의차.md)                     |
@@ -72,6 +73,7 @@
 | 120910 | 세균 증식                                                                        | Lv.0 | [코드](src/com/company/programmers/level0/세균증식.md)      |
 | 120911 | 문자열 정렬하기(2)                                                                  | Lv.0 | [코드](src/com/company/programmers/level0/문자열정렬하기.md)   |
 | 120956 | 옹알이 (1)                                                                      | Lv.0 | [코드](programmers/level00/옹알이1.md)                     |
+| 131128 | 숫자 짝꿍                                                                        | Lv.1 | [코드](src/com/company/programmers/level1/숫자짝꿍.md)      |
 | 131705 | 삼총사                                                                          | Lv.1 | [코드](programmers/level01/삼총사.md)                      |
 | 133502 | 햄버거 만들기                                                                      | Lv.1 | [코드](src/com/company/programmers/level1/햄버거만들기.md)    |
 | 134240 | 푸드 파이트 대회                                                                    | Lv.1 | [코드](src/com/company/programmers/level1/푸드파이트대회.md)   |
@@ -82,7 +84,8 @@
 | 142086 | 가장 가까운 같은 글자                                                                 | Lv.1 | [코드](programmers/level01/가장가까운글자.md)                  |
 | 147355 | 크기가 작은 부분 문자열                                                                | Lv.1 | [코드](programmers/level01/크기가작은문자열.md)                 |
 | 155652 | 둘만의 암호                                                                       | Lv.1 | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
-| 159994 | 카드 뭉치                                                                        | Lv.1 | [코드](programmers/level01/카드뭉치.md)     |
+| 159994 | 카드 뭉치                                                                        | Lv.1 | [코드](programmers/level01/카드뭉치.md)                     |
+| 161990 | 바탕화면 정리                                                                      | Lv.1 | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | 176963 | 추억 점수                                                                        | Lv.1 | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | 178871 | 달리기 경주                                                                       | Lv.1 | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | 181830 | 정사각형으로 만들기                                                                   | Lv.0 | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
@@ -102,16 +105,15 @@
 | 250126 | PCCE 기출문제 / 창고 정리                                                            | Lv.0 | [코드](programmers/level00/창고정리.md)                     |
 | 258712 | 가장 많이 받은 선물                                                                  | Lv.1 | [코드](programmers/level01/가장많이받은선물.md)                 |
 | 340199 | [PCCE 기출문제 9번 ]지폐 접기                                                         | Lv.1 | [코드](programmers/level01/지폐접기.md)                     |
+| 388351 | 유연 근무제                                                                       | Lv.1 | [코드](programmers/level01/유연근무제.md)                    |
 | Lv.1   | [문자열 내 마음대로 정렬하기 ](https://programmers.co.kr/learn/courses/30/lessons/12915) |      | [코드](src/com/company/programmers/level1/문자열마음대로정렬.md) |
 | Lv.1   | [소수 찾기 ](https://programmers.co.kr/learn/courses/30/lessons/12921)           |      | [코드](src/com/company/programmers/level1/소수찾기.md)      |
 | Lv.1   | [신고 결과 받기 ](https://programmers.co.kr/learn/courses/30/lessons/92334)        |      | [코드](src/com/company/programmers/level1/신고결과받기.md)    |
 | Lv.1   | [성격 유형 검사하기 ](https://programmers.co.kr/learn/courses/30/lessons/118666)     |      | [코드](src/com/company/programmers/level1/성격유형검사.md)    |
-| Lv.1   | [숫자 짝꿍 ](https://programmers.co.kr/learn/courses/30/lessons/131128)          |      | [코드](src/com/company/programmers/level1/숫자짝꿍.md)      |
 | Lv.1   | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)   |      | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | Lv.1   | [옹알이(2) ](https://programmers.co.kr/learn/courses/30/lessons/133499)         |      | [코드](src/com/company/programmers/level1/옹알이(2).md)    |
 | Lv.1   | [대충 만든 자판](https://programmers.co.kr/learn/courses/30/lessons/160586)        |      | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
 | Lv.1   | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)           |      | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
-| Lv.1   | [바탕화면 정리](https://programmers.co.kr/learn/courses/30/lessons/161990)         |      | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | Lv.1   | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)           |      | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | Lv.1   | [데이터 분석](https://programmers.co.kr/learn/courses/30/lessons/250121)          |      | [코드](src/com/company/programmers/level1/데이터분석.md)     |
 | Lv.2   | [게임 맵 최단 거리](https://programmers.co.kr/learn/courses/30/lessons/1844)        |      | [코드](src/com/company/programmers/level2/게임맵최단거리.md)   |
