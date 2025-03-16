@@ -104,6 +104,7 @@
 | 181940 | 문자열 곱하기                                                                      | Lv.0 | [코드](src/com/company/programmers/level0/문자열곱하기.md)    |
 | 250126 | PCCE 기출문제 / 창고 정리                                                            | Lv.0 | [코드](programmers/level00/창고정리.md)                     |
 | 258712 | 가장 많이 받은 선물                                                                  | Lv.1 | [코드](programmers/level01/가장많이받은선물.md)                 |
+| 340198 | [PCCE 기출문제 10번 ] 공원                                                          | Lv.1 | [코드](programmers/level01/공원.md)                       |
 | 340199 | [PCCE 기출문제 9번 ]지폐 접기                                                         | Lv.1 | [코드](programmers/level01/지폐접기.md)                     |
 | 388351 | 유연 근무제                                                                       | Lv.1 | [코드](programmers/level01/유연근무제.md)                    |
 | Lv.1   | [문자열 내 마음대로 정렬하기 ](https://programmers.co.kr/learn/courses/30/lessons/12915) |      | [코드](src/com/company/programmers/level1/문자열마음대로정렬.md) |
