@@ -52,10 +52,12 @@
 | 12930  | 이상한 문자 만들기                                                                  | Lv.1 | [코드](programmers/level01/이상한문자만들기.md)                 |
 | 12939  | 최댓값과 최솟값                                                                    | Lv.2 | [코드](programmers/level02/최댓값과최솟값.md)                  |
 | 12941  | 최솟값 만들기                                                                     | Lv.2 | [코드](programmers/level02/최솟값만들기.md)                   |
+| 12948  | 핸드폰 번호 가리기                                                                  | Lv.1 | [코드](programmers/level01/핸드폰번호가리기.md)                 |
 | 12954  | x만큼 간격이 있는 n개의 숫자                                                           | Lv.1 | [코드](programmers/level01/x만큼간격.md)                    |
 | 42746  | 가장 큰 수                                                                      | Lv.2 | [코드](src/com/company/programmers/level2/가장큰수.md)      |
 | 68644  | 두 개 뽑아서 더하기                                                                 | Lv.1 | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | 70128  | 내적                                                                          | Lv.1 | [코드](src/com/company/programmers/level1/내적.md)        |
+| 72412  | 순위 검색                                                                       | Lv.2 | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | 76501  | 음양 더하기                                                                      | Lv.1 | [코드](programmers/level01/음양더하기.md)                    |
 | 87389  | 나머지가 1이 되는 수 찾기                                                             | Lv.1 | [코드](programmers/level01/나머지가1이되는.md)                 |
 | 92341  | 주차 요금 계산                                                                    | Lv.2 | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
@@ -93,11 +95,11 @@
 | 140108 | 문자열 나누기                                                                     | Lv.1 | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
 | 142086 | 가장 가까운 같은 글자                                                                | Lv.1 | [코드](programmers/level01/가장가까운글자.md)                  |
 | 147355 | 크기가 작은 부분 문자열                                                               | Lv.1 | [코드](programmers/level01/크기가작은문자열.md)                 |
-| Lv.1   | [개인정보 수집 유효기간 ](https://programmers.co.kr/learn/courses/30/lessons/150370)  |      | [코드](src/com/company/programmers/level1/문자열나누기.md)    |
+| 150370 | 개인정보 수집 유효기간                                                                | Lv.1 | [코드](src/com/company/programmers/level1/개인정보수집.md)    |
 | 155652 | 둘만의 암호                                                                      | Lv.1 | [코드](src/com/company/programmers/level1/둘만의암호.md)     |
 | 159994 | 카드 뭉치                                                                       | Lv.1 | [코드](programmers/level01/카드뭉치.md)                     |
-| Lv.1   | [대충 만든 자판](https://programmers.co.kr/learn/courses/30/lessons/160586)       |      | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
-| Lv.1   | [덧칠하기 ](https://programmers.co.kr/learn/courses/30/lessons/161989)          |      | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
+| 160586 | 대충 만든 자판                                                                    | Lv.1 | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
+| 161989 | 덧칠하기                                                                        | Lv.1 | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
 | 161990 | 바탕화면 정리                                                                     | Lv.1 | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
 | Lv.1   | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)          |      | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | 176963 | 추억 점수                                                                       | Lv.1 | [코드](src/com/company/programmers/level1/추억점수.md)      |
@@ -121,6 +123,7 @@
 | 258712 | 가장 많이 받은 선물                                                                 | Lv.1 | [코드](programmers/level01/가장많이받은선물.md)                 |
 | 340198 | [PCCE 기출문제 10번 ] 공원                                                         | Lv.1 | [코드](programmers/level01/공원.md)                       |
 | 340199 | [PCCE 기출문제 9번 ]지폐 접기                                                        | Lv.1 | [코드](programmers/level01/지폐접기.md)                     |
+| 340213 | [PCCP 기출문제 1번 ] / 동영상 재생기                                                   | Lv.1 | [코드](programmers/level01/동영상재생기.md)                   |
 | 388351 | 유연 근무제                                                                      | Lv.1 | [코드](programmers/level01/유연근무제.md)                    |
 | Lv.2   | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)            |      | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2   | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)           |      | [코드](src/com/company/programmers/level2/기능개발.md)      |
@@ -129,7 +132,6 @@
 | Lv.2   | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)           |      | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2   | [수식 최대화](https://programmers.co.kr/learn/courses/30/lessons/67257)          |      | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | Lv.2   | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)    |      | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
-| Lv.2   | [순위 검색  ](https://programmers.co.kr/learn/courses/30/lessons/72412)         |      | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | Lv.2   | [괄호 회전하기  ](https://programmers.co.kr/learn/courses/30/lessons/76502)       |      | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | Lv.2   | [전력망을 둘로 나누기  ](https://programmers.co.kr/learn/courses/30/lessons/86971)   |      | [코드](src/com/company/programmers/level2/전력망둘로나누기.md)  |
 | Lv.2   | [할인 행사](https://programmers.co.kr/learn/courses/30/lessons/131127)          |      | [코드](src/com/company/programmers/level2/할인행사.md)      |
