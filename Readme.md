@@ -60,6 +60,7 @@
 | 72412  | 순위 검색                                                                       | Lv.2 | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | 76501  | 음양 더하기                                                                      | Lv.1 | [코드](programmers/level01/음양더하기.md)                    |
 | 87389  | 나머지가 1이 되는 수 찾기                                                             | Lv.1 | [코드](programmers/level01/나머지가1이되는.md)                 |
+| 87946  | 피로도                                                                         | Lv.2 | [코드](programmers/level02/피로도.md)                      |
 | 92341  | 주차 요금 계산                                                                    | Lv.2 | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
 | 120583 | 중복된 숫자 개수                                                                   | Lv.0 | [코드](programmers/level00/중복된숫자.md)                    
 | 120803 | 두수의 차                                                                       | Lv.0 | [코드](programmers/level00/두수의차.md)                     |
@@ -101,7 +102,7 @@
 | 160586 | 대충 만든 자판                                                                    | Lv.1 | [코드](src/com/company/programmers/level1/대충만든자판.md)    |
 | 161989 | 덧칠하기                                                                        | Lv.1 | [코드](src/com/company/programmers/level1/덧칠하기.md)      |
 | 161990 | 바탕화면 정리                                                                     | Lv.1 | [코드](src/com/company/programmers/level1/바탕화면정리.md)    |
-| Lv.1   | [공원 산책](https://programmers.co.kr/learn/courses/30/lessons/172928)          |      | [코드](src/com/company/programmers/level1/공원산책.md)      |
+| 172928 | 공원 산책                                                                       | Lv.1 | [코드](src/com/company/programmers/level1/공원산책.md)      |
 | 176963 | 추억 점수                                                                       | Lv.1 | [코드](src/com/company/programmers/level1/추억점수.md)      |
 | 178871 | 달리기 경주                                                                      | Lv.1 | [코드](src/com/company/programmers/level1/달리기경주.md)     |
 | 181830 | 정사각형으로 만들기                                                                  | Lv.0 | [코드](src/com/company/programmers/level0/정사각형으로만들기.md) |
