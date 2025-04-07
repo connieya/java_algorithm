@@ -1,47 +1,4 @@
-# [N 과 M (1)](https://www.acmicpc.net/problem/15649)
-
-## solution 1
-
-```java
-import java.util.Scanner;
-
-public class N과M_15649 {
-    static int n,m;
-    static int [] answer;
-    static boolean [] visited;
-    public static void dfs(int depth) {
-        if(depth == m) {
-            for (int i = 0; i < m; i++) {
-                System.out.print(answer[i]+" ");
-            }
-            System.out.println();
-            return;
-        }
-        for (int i=1; i<=n; i++) {
-            if (visited[i]) continue;
-            visited[i] = true;
-            answer[depth] = i;
-            dfs(depth+1);
-            visited[i] = false;
-        }
-    }
-
-    public static void main(String[] args) {
-        Scanner input = new Scanner(System.in);
-         n = input.nextInt();
-         m = input.nextInt();
-         answer = new int[m];
-         visited = new boolean[n+1];
-         dfs(0);
-    }
-}
-
-```
-
-## solution 2
-
-```java
-package com.company.sovled.silver2;
+package com.company.sovled.silver3;
 
 import java.io.BufferedReader;
 import java.io.IOException;
@@ -90,4 +47,3 @@ public class N과M1 {
 
     }
 }
-```
