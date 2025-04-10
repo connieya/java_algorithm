@@ -35,7 +35,8 @@
 | 번호    | 문제                                                 | 닌이도                   | 코드                                          |
 |:------|:---------------------------------------------------|:----------------------|:--------------------------------------------
 | 1717  | [집합의 표현](https://www.acmicpc.net/problem/1717)     | Union & Find , 서로소 집합 | [코드](src/com/company/boj/gold05/1717.md)    |
-| 2606  | [바이러스](https://www.acmicpc.net/problem/2606)       | Union & Find          | [코드](src/com/company/boj/silver03/2606.md)  |
+| 2606  | 바이러스                                              | 실버 3                  | [코드](src/com/company/boj/silver03/2606.md)  |
+| 11724 | 연결 요소의 개수                                          | 실버2                   | [코드](src/com/company/boj/silver02/11724.md) |
 | 11725 | [트리의 부모 찾기](https://www.acmicpc.net/problem/11725) | 그래프 탐색 , DFS          | [코드](src/com/company/boj/silver02/11725.md) |
 | 15649 | N 과 M (1)                                          | 실버 3                  | [코드](boj/silver3/15649.md)                  |
 | 15650 | N 과 M (2)                                          | 실버 3                  | [코드](boj/silver3/15650.md)                  |
@@ -60,13 +61,15 @@
 | 12941  | 최솟값 만들기                                                                     | Lv.2 | [코드](programmers/level02/최솟값만들기.md)                   |
 | 12948  | 핸드폰 번호 가리기                                                                  | Lv.1 | [코드](programmers/level01/핸드폰번호가리기.md)                 |
 | 12954  | x만큼 간격이 있는 n개의 숫자                                                           | Lv.1 | [코드](programmers/level01/x만큼간격.md)                    |
+| 42584  | 주식가격                                                                        | Lv.2 | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | 42746  | 가장 큰 수                                                                      | Lv.2 | [코드](src/com/company/programmers/level2/가장큰수.md)      |
+| 42839  | 소수 찾기                                                                       | Lv.2 | [코드](src/com/company/programmers/level2/소수찾기.md)      |
 | 67257  | 수식 최대화                                                                      | Lv.2 | [코드](src/com/company/programmers/level2/수식최대화.md)     |
 | 68644  | 두 개 뽑아서 더하기                                                                 | Lv.1 | [코드](src/com/company/programmers/level1/두개뽑아서더하기.md)  |
 | 70128  | 내적                                                                          | Lv.1 | [코드](src/com/company/programmers/level1/내적.md)        |
 | 72412  | 순위 검색                                                                       | Lv.2 | [코드](src/com/company/programmers/level2/순위검색.md)      |
 | 76501  | 음양 더하기                                                                      | Lv.1 | [코드](programmers/level01/음양더하기.md)                    |
-| 76502  | 괄호 회전하기                                                                          | Lv.2 | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
+| 76502  | 괄호 회전하기                                                                     | Lv.2 | [코드](src/com/company/programmers/level2/괄호회전하기.md)    |
 | 87389  | 나머지가 1이 되는 수 찾기                                                             | Lv.1 | [코드](programmers/level01/나머지가1이되는.md)                 |
 | 87946  | 피로도                                                                         | Lv.2 | [코드](programmers/level02/피로도.md)                      |
 | 92341  | 주차 요금 계산                                                                    | Lv.2 | [코드](src/com/company/programmers/level2/주차요금계산.md)    |
@@ -137,9 +140,7 @@
 | 340199 | [PCCE 기출문제 9번 ]지폐 접기                                                        | Lv.1 | [코드](programmers/level01/지폐접기.md)                     |
 | 340213 | [PCCP 기출문제 1번 ] / 동영상 재생기                                                   | Lv.1 | [코드](programmers/level01/동영상재생기.md)                   |
 | 388351 | 유연 근무제                                                                      | Lv.1 | [코드](programmers/level01/유연근무제.md)                    |
-| Lv.2   | [주식가격](https://programmers.co.kr/learn/courses/30/lessons/42584)            |      | [코드](src/com/company/programmers/level2/주식가격.md)      |
 | Lv.2   | [기능 개발](https://programmers.co.kr/learn/courses/30/lessons/42586)           |      | [코드](src/com/company/programmers/level2/기능개발.md)      |
-| 42839  | [소수 찾기](https://programmers.co.kr/learn/courses/30/lessons/42839)           | Lv.2 | [코드](src/com/company/programmers/level2/소수찾기.md)      |
 | Lv.2   | [큰 수 만들기](https://programmers.co.kr/learn/courses/30/lessons/42883)         |      | [코드](src/com/company/programmers/level2/큰수만들기.md)     |
 | Lv.2   | [타겟 넘버](https://programmers.co.kr/learn/courses/30/lessons/43165)           |      | [코드](src/com/company/programmers/level2/타겟넘버.md)      |
 | Lv.2   | [쿼드압축 후 개수 세기](https://programmers.co.kr/learn/courses/30/lessons/68936)    |      | [코드](src/com/company/programmers/level2/쿼드압축후개수세기.md) |
