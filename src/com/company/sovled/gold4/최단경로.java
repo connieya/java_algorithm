@@ -1,0 +1,77 @@
+package com.company.sovled.gold4;
+
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
+import java.util.*;
+
+public class 최단경로 {
+
+    static class Point {
+        int v;
+        int e;
+
+        public Point(int v, int e) {
+            this.v = v;
+            this.e = e;
+        }
+    }
+
+    static List<List<Point>> graph = new ArrayList<>();
+
+    public static void main(String[] args) throws IOException {
+        BufferedReader br = new BufferedReader(new InputStreamReader(System.in));
+        StringTokenizer st = new StringTokenizer(br.readLine());
+        int v = Integer.parseInt(st.nextToken());
+        int e = Integer.parseInt(st.nextToken());
+
+        int start = Integer.parseInt(br.readLine());
+
+        int dis[] = new int[v+1];
+
+        Arrays.fill(dis, Integer.MAX_VALUE);
+
+        for (int i=0; i<= v; i++) {
+            graph.add(new ArrayList<>());
+        }
+
+        for (int i=0; i< e; i++) {
+            st = new StringTokenizer(br.readLine());
+            int a = Integer.parseInt(st.nextToken());
+            int b = Integer.parseInt(st.nextToken());
+            int c = Integer.parseInt(st.nextToken());
+
+            graph.get(a).add(new Point(b,c));
+        }
+
+        PriorityQueue<Point> pq = new PriorityQueue<>(Comparator.comparing(p -> p.e));
+
+        pq.add(new Point(start,0));
+
+        dis[start] = 0;
+        while (!pq.isEmpty()) {
+            Point point = pq.poll();
+            int now = point.v;
+            int nowCost = point.e;
+
+            if (dis[now] < nowCost) continue;
+
+            for(Point p : graph.get(now)) {
+                if (dis[p.v] > dis[now] + p.e) {
+                    dis[p.v] = dis[now] + p.e;
+                    pq.add(new Point(p.v,dis[now]+p.e));
+                }
+            }
+
+        }
+
+        for (int i=1; i<=v; i++) {
+            if (dis[i] == Integer.MAX_VALUE) {
+                System.out.println("INF");
+            }else {
+                System.out.println(dis[i]);
+            }
+
+        }
+    }
+}
